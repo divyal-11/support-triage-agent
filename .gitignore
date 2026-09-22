@@ -1,0 +1,6 @@
+node_modules/
+dist/
+data/twcs.csv
+twcs/
+data/cache/
+.env
