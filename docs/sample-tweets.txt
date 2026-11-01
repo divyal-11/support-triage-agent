@@ -3,205 +3,205 @@
 Use this file to identify recurring problem types and define the intent taxonomy in docs/taxonomy.md.
 
 --------------------------------------------------------------------------------
-[#1] ID: 963325
-CUSTOMER: @SpotifyCares What a polite way for a multimillion $ corporation to ask people to work for free.
-REPLY:    @348610 1: We're sorry you feel that way. We just want the best for our listeners which is why we welcome ideas and comments to improve the...
+[#1] ID: 238555
+CUSTOMER: Sad that #Spotify has disabled the app on Smart TVs (beyond a certain age) @SpotifyCares has been attentive but nothing much they can do 😒
+REPLY:    @172747 Don't worry, we’re taking all the feedback on board about this. For anything else, we'll be right here for you /RC
 --------------------------------------------------------------------------------
-[#2] ID: 1056964
-CUSTOMER: I encourage @115888 to build a sleep timer into the App itself... Even more I challenge you!! Haha good night !
-REPLY:    @369556 We hear you, Esteban! Your feedback has been noted and passed onto the team 👊🏼 /MT
+[#2] ID: 149328
+CUSTOMER: @SpotifyCares how long does it take for cover art to update? i changed cover art on some playlists a few days ago, and it still hasn’t changed through the mobile app. i have an iphone 7+. how long will this take?
+REPLY:    @150021 Hey there! That's not cool. Could you send us a DM with your account's email address? We'll take a look backstage /QI https://t.co/ldFdZRiNAt
 --------------------------------------------------------------------------------
-[#3] ID: 61159
-CUSTOMER: @SpotifyCares I need to switch my account to a student account.
-REPLY:    @130003 Great! Can you DM us your account's username and email address? We'll take a look under the hood /MS https://t.co/ldFdZRiNAt
+[#3] ID: 153796
+CUSTOMER: @115888 why aren’t you streaming on black Friday?
+REPLY:    @151215 Hey there! That's not cool. Does logging out &gt; restarting the device &gt; logging back in help? Keep us posted /MX
 --------------------------------------------------------------------------------
-[#4] ID: 152236
-CUSTOMER: Back to @118266  Premium just to repeat @133324 @4985 @134388  MIC Drop 🔥 https://t.co/NADsaxMTSk
-REPLY:    @150791 That's great to hear! Just in time to... https://t.co/iPSYNznjKE /CO
+[#4] ID: 890663
+CUSTOMER: @SpotifyCares Typically yes. Today everything unsaved except my playlists
+REPLY:    @331476 Got it. Can you DM us your account's email address or username? We'll take a look backstage /MT https://t.co/ldFdZRiNAt
 --------------------------------------------------------------------------------
-[#5] ID: 1132351
-CUSTOMER: @115888 need a function where you can share music with your friends in-app
-REPLY:    @386832 Hey there! This is currently an available feature on the desktop app. Are you using a mobile device? Keep us posted /TF
+[#5] ID: 44671
+CUSTOMER: @SpotifyCares why i cant play my playlist folder on iphone app? You are SPOTIFY,guys do it please!
+REPLY:    @121069 Hi there, the cavalry's here! Does logging out, restarting your device, and logging back into Spotify help? Keep us in the loop /JI
 --------------------------------------------------------------------------------
-[#6] ID: 278125
-CUSTOMER: @SpotifyCares Im on ios 10.0.2 on an iPhone 5s
-REPLY:    @182416 Got it! Are you getting any error messages? If you can send us a screenshot of what you're seeing, that'd be great /PL
+[#6] ID: 158953
+CUSTOMER: @7997 I wanted to apply but the link doesn't work https://t.co/k37pOnMbyf do you have any email from the Berlin offices? Thx
+REPLY:    @152545 Hey there. It seems that this post is no longer available, but thanks for your interest in joining the band! Keep an eye out for more exciting jobs we'll be offering soon 🙂 /JP
 --------------------------------------------------------------------------------
-[#7] ID: 904060
-CUSTOMER: @SpotifyCares Hi can you help with a subscription query please?
-REPLY:    @334624 Hey there, help's here. Can you let us know what's happening over DM? We'll check this out /AC https://t.co/ldFdZRiNAt
+[#7] ID: 1147238
+CUSTOMER: Love it when my UNiDAYS code stops working on @115888 - it appears my 'student credentials are linked to another account' I don't think so🤔
+REPLY:    @141635 Hey, help's here! Can you DM us your account's email address? We'll take a look backstage /SJ https://t.co/ldFdZRiNAt
 --------------------------------------------------------------------------------
-[#8] ID: 1076725
-CUSTOMER: @SpotifyCares ur lists of discovery weekly and release radar are so bad this week. I wonder who curated these !!! God bless 😴
-REPLY:    @364643 2. Also, the more you use Spotify, the more personalized Release Radar becomes. Carry on listening to the songs you love 🙂 /TB
+[#8] ID: 855
+CUSTOMER: i’m pissed my @115888 shuffle and repeat button just don’t fucking work and i’m getting frustrated
+REPLY:    @115887 Hey! What device, operating system, and Spotify version are you using? We'll see what we can suggest /CB
 --------------------------------------------------------------------------------
-[#9] ID: 160573
-CUSTOMER: Excuse me @115888. Your web player for Chrome is not working. Please inquire
-REPLY:    @152996 Hey there! Can you give us more info about what's happening? We'll see what we can suggest /KL
+[#9] ID: 573216
+CUSTOMER: @118266 halo Spotify id saya mau nanya, tadi dapat. Promo ini. Trus saya bayar pakai pulsa, tapi sms balasan cuma per bulan. Yang. Benar yg mana ya min? https://t.co/u4TzxlI2H7
+REPLY:    @254720 Hey! We can help out in English via Twitter, but we also have Indonesian support via email at https://t.co/ZgU70TbP8M /NQ
 --------------------------------------------------------------------------------
-[#10] ID: 429678
-CUSTOMER: @SpotifyCares hm, that was actually a compliment: you nailed the update experience! I’m totally happy 👏
-REPLY:    @217186 That's great to hear! If we can help with anything else, just give us a shout. Have a... https://t.co/FQulrDtFky 😉 /AY
+[#10] ID: 73741
+CUSTOMER: @SpotifyCares uhm i don't think so, this is my 2nd time purchasing premium in Android device. The first time there was Behind Lyrics 🤔🤔
+REPLY:    @132495 Got it. Can you let us know what Android and Spotify versions you're running? We'll see what we can suggest /AN
 --------------------------------------------------------------------------------
-[#11] ID: 694030
-CUSTOMER: @SpotifyCares you must’ve missed my last tweet......my Spotify has gone back to the free subscription randomly but I haven’t cancelled Spotify premium! Help!! How do I get it back?!
-REPLY:    @285489 Hi Luke, help's here! Sorry for the delay. Can you DM us your account's email address? We'll take a look backstage /DV https://t.co/ldFdZRiNAt
+[#11] ID: 654539
+CUSTOMER: Hey @SpotifyCares I can’t found new single “Falsa Fada” by @29753 on @115888 https://t.co/84bxJRVWME
+REPLY:    @275704 Thanks! Fingers crossed we'll be able to have it in the US soon, but there's info about Spotify content here: https://t.co/0i8GpimuDa. We hope this clears things up /CH
 --------------------------------------------------------------------------------
-[#12] ID: 388121
-CUSTOMER: @SpotifyCares Tbh it was more of a general whine than a request for help since I don't expect there to be a way to change that but thanks for caring 10/10
-REPLY:    @207861 1. We understand. Your Discover Weekly should improve as it gets to know you. Keep adding your fav tracks to Your Library/playlists 🙂
+[#12] ID: 634450
+CUSTOMER: @SpotifyCares hi guys your site isn't letting me pay this month's subscription?? Any idea how i can do it?
+REPLY:    @270427 Can you DM us your account's email address and username? We'll take a look backstage /JX https://t.co/ldFdZRiNAt
 --------------------------------------------------------------------------------
-[#13] ID: 66013
-CUSTOMER: @SpotifyCares Any news???!
-REPLY:    @131101 Hi Max! We don't have any news on the Explicit Filter yet, but keep an eye on this post for updates: https://t.co/CdI1SY9KZE 👍 /RR
+[#13] ID: 703171
+CUSTOMER: How? @115888 https://t.co/Jkkjic7Rs0
+REPLY:    @287980 Hey there, help's here! Could DM us your account's username or email address? We'll take a look under the hood /WP https://t.co/ldFdZRiNAt
 --------------------------------------------------------------------------------
-[#14] ID: 144247
-CUSTOMER: @115888 Is this onlh available for those who has Debit and credit card?
-REPLY:    @148609 Hey! We've just sent you a DM. Check it out 🙂 /NY
+[#14] ID: 135134
+CUSTOMER: @115888 please fix your Christmas playlists. Nothing about it is Christmas!
+REPLY:    @146437 Hey Scott, help's here. Could you send us the Playlist Links? Just tap the three dots &gt; Share &gt; Copy Link. We'll check things out /AY
 --------------------------------------------------------------------------------
-[#15] ID: 510521
-CUSTOMER: @SpotifyCares please answer my DM
-REPLY:    @224963 Apologies for the delay. We've just replied to your DM. Check it out /DB
+[#15] ID: 980821
+CUSTOMER: @SpotifyCares It is cryoniclake6897
+REPLY:    @352557 We'd suggest sending us a DM using the link we sent. It would be helpful if you could provide us your account's email address too /JS
 --------------------------------------------------------------------------------
-[#16] ID: 312215
-CUSTOMER: @SpotifyCares I've just created a playlist of the album and trying to play that it says "This song not available."
-REPLY:    @190563 Is this happening over WiFi, 3G/4G, or both? If on WiFi, is it a public or private connection? /LO
+[#16] ID: 821807
+CUSTOMER: @SpotifyCares Ok thanks. I’m listening to music most the time and doing something else. Maybe have a Seperate music video playlist and normal playlist?
+REPLY:    @315756 We hear you, Eric! Your feedback has been noted and passed onto the team 👊🏼 /MX
 --------------------------------------------------------------------------------
-[#17] ID: 769720
-CUSTOMER: @SpotifyCares I'm using a Google Pixel. Spotify version 8.4.22.875 armV7
-REPLY:    @303791 Thanks! Our tech folks are investigating this as we speak. In the meantime, let us know if you need help with anything else /MO
+[#17] ID: 697632
+CUSTOMER: @SpotifyCares I use a Samsung Galaxy. No matter what song I play, they all skip multiple times.
+REPLY:    @286442 Can you also send us the Android and Spotify versions you're running? /LO
 --------------------------------------------------------------------------------
-[#18] ID: 338723
-CUSTOMER: @SpotifyCares The logo is just going dark for some reason lol. It’s version 8.4.20
-REPLY:    @196862 Got it. Does restarting your phone make any difference? Keep us posted /KB
+[#18] ID: 842568
+CUSTOMER: Going on day 3 of certain artist not playing on @115888 and it’s getting on my last nerve 😡😭
+REPLY:    @320401 Hey! Don't worry, we're here to help. Could you let us know more about the artist you're trying to play? We'll see what we can suggest /MT
 --------------------------------------------------------------------------------
-[#19] ID: 1024762
-CUSTOMER: Guys, I can't log in! The reset password page doesn't recognise my email, but says it is attached to an account @SpotifyCares
-REPLY:    @362491 Hey Hattie! You should be able to reset your password now. Can you give it another shot? Let us know how that goes /TF
+[#19] ID: 38706
+CUSTOMER: @SpotifyCares  I have sent you an inbox regarding the three charges that was made to my acc when I tried to scribe for sportify for college students and had no success especially on the @124439 page! And nobody had answered yet😡
+REPLY:    @124438 Hey! Apologies for the delay. We've just sent you a bit more info over DM. We'll carry on helping out there /CP
 --------------------------------------------------------------------------------
-[#20] ID: 772051
-CUSTOMER: Dear @115888 @SpotifyCares can you please make an official streaming Apple Watch app now that they have LTE? #Spotify4life
-REPLY:    @304409 Hey! Check out the official idea and add your vote to let our devs know it's something you'd like to see: https://t.co/SEK4E4gi22 /RB
+[#20] ID: 133949
+CUSTOMER: @115888 Hi. Arent we all a premium member in the beginning? I've tried to pay by my SIM Card but it said that I don't have enough credit in my SIM Card which is wrong
+REPLY:    @288452 Hey there! Could you DM us your account's username or email address? We'll take a look backstage /GU https://t.co/ldFdZRiNAt
 --------------------------------------------------------------------------------
-[#21] ID: 648655
-CUSTOMER: @SpotifyCares I want to transfer all my music/playlists/etc to a new account I want to make. How can you guys help me?
-REPLY:    @274161 Hey Dalia, we'd be happy to help! Could you DM us your account's email address and username? We'll take a look backstage /BX https://t.co/ldFdZRiNAt
+[#21] ID: 875198
+CUSTOMER: @SpotifyCares All songs from his new album are already available in my country :) And I don't have any trouble playing them now. Thank you!
+REPLY:    @327792 That's great to hear! Just let us know if you need anything else. We'd be... https://t.co/LgAM6ky9Vv /TB
 --------------------------------------------------------------------------------
-[#22] ID: 211080
-CUSTOMER: @SpotifyCares I've change my signal to 3g and it's not working. https://t.co/ist88blyGi
-REPLY:    @165998 Can you go to Your Library &gt; Settings &gt; Music Quality and urn the switch on for Download using cellular? Does that help? /JP
+[#22] ID: 824862
+CUSTOMER: i actually hate the most recent @115888 update. literally nothing loads. (playlists, search results etc...)
+REPLY:    @316452 Hey! Sorry you feel that way. Can you let us know the device you're using and its operating system? We'll see what we can suggest /NY
 --------------------------------------------------------------------------------
-[#23] ID: 837859
-CUSTOMER: @115888 Student discount? 4.99! now, #Hulu? SIGN ME UP! but i feel that Student discount should be opened to high schoolers! #seniorStudent
-REPLY:    @319386 2: now, you can head to https://t.co/B79Dww7rFK to show your support to the official idea /MG
+[#23] ID: 152224
+CUSTOMER: why don't i have free hulu anymore? @115888
+REPLY:    @150784 Hey there, we'd love to look into this for you. Can you DM us your account's username/email? We'll check backstage /JP https://t.co/ldFdZRiNAt
 --------------------------------------------------------------------------------
-[#24] ID: 414124
-CUSTOMER: it breaks my heart that lemonade isn’t available on Spotify @12899 @115888 @SpotifyCares @117168  It’s by far one of the best albums😫
-REPLY:    @213825 Hey Leah! We're working on it, and we hope to have it available soon. There's more info here: https://t.co/WI0fi3V8Cu /FR
+[#24] ID: 590118
+CUSTOMER: @125633 @27525 @27526 I keep getting an error message when contacting you how else can direct my question  to you regarding my account?
+REPLY:    @259543 Hey! You should have an email from the Artist Support team waiting for you /I
 --------------------------------------------------------------------------------
-[#25] ID: 557275
-CUSTOMER: @SpotifyCares Hello??? 
-https://t.co/jMp49ziaxU
-REPLY:    @250127 Hey, sorry for the delay! Can you DM us your account's email address? We'll take a look backstage /RR https://t.co/ldFdZRiNAt
+[#25] ID: 313046
+CUSTOMER: @SpotifyCares My songs came back. Thanks you guys are the best. Apple music doesn't have shit on you.
+REPLY:    @190760 Thanks for the heads-up! If you ever need us again, we're just a tweet away. https://t.co/uQiQuWow27 /MO
 --------------------------------------------------------------------------------
-[#26] ID: 385146
-CUSTOMER: @207190 @SpotifyCares Oh, I hope they do!!!!!
-REPLY:    @207189 Hi there! We've just sent a DM your way. Let's carry on chatting there /PL
+[#26] ID: 875192
+CUSTOMER: @SpotifyCares Come And Get Your Love - Re-Record plays I Will Survive
+REPLY:    @327789 Hey James, that's not cool! Could you send us the song's URI or Link? We'll check it out backstage /BH
 --------------------------------------------------------------------------------
-[#27] ID: 1103029
-CUSTOMER: Today is a special day, after months of submitting to Spotify, I finally have access to Problem’s page and all the data....FINALLY!!
-REPLY:    @380294 No worries! We're glad we could help out. If you ever need anything else, just shout and we'll come running 🏃 /DF
+[#27] ID: 834885
+CUSTOMER: @SpotifyCares Hi, I'm on MacOS High Sierra (Latest version)
+REPLY:    @318790 Thanks! Just to check, were you able to do all the steps here: https://t.co/SgMwFS1ONz? Keep us posted /NY
 --------------------------------------------------------------------------------
-[#28] ID: 137168
-CUSTOMER: @115888 Or download daily mixes for that matter
-REPLY:    @146934 Hey Matt, we appreciate your feedback! Don't worry, we'll let our devs know this is something you'd like to see. Let us know if you have other questions /GK
+[#28] ID: 815014
+CUSTOMER: @SpotifyCares No. It's an album. It would be an absolute excitement to Tyler's big fans if included the album some people fell in love with.
+REPLY:    @314095 Got it! We’d love to have all of their stuff available, but we have some info about content here: https://t.co/0i8GpimuDa /JP
 --------------------------------------------------------------------------------
-[#29] ID: 299109
-CUSTOMER: dudee "bad internet rapper" just got pulled from spotify. I haven't gotten any message or any reason why. What's the deal?? @115888
-REPLY:    @187300 Hey there! We've just sent you a bit more info over DM. We'll carry on helping out there /GN
+[#29] ID: 941231
+CUSTOMER: The current update deleted all my songs and shows my own songs as available but they do not play. Super frustrating, few friends have been suggesting other apps, seriously considering after this. @SpotifyCares
+REPLY:    @343137 Hey there! That's not cool. Does logging out &gt; restarting the device &gt; logging back in help? Keep us posted /CG
 --------------------------------------------------------------------------------
-[#30] ID: 73745
-CUSTOMER: @SpotifyCares I was charged full price even tho I still have a student account. Help?
-REPLY:    @132496 Hey Jasmine! Can you DM us your account's email address or username? We'll take a look backstage /KM https://t.co/ldFdZRiNAt
+[#30] ID: 67652
+CUSTOMER: Nakakaloko yung spotify ayaw tumanggap ng paymet sa globe
+REPLY:    @131447 Hi Keana! We've just sent you a bit more info over DM. We'll carry on helping out there /MA
 --------------------------------------------------------------------------------
-[#31] ID: 782920
-CUSTOMER: @SpotifyCares Help! Unable to join this Family plan. Try again by clicking the ACCEPT INVITE button in your email.
-REPLY:    @306890 Hi there! Could you shoot us a DM with the usernames and email addresses for you and the Family plan owner's accounts? We'll take a look /VK https://t.co/ldFdZRiNAt
+[#31] ID: 819605
+CUSTOMER: @125633 When is thr android version gonna be out ? 😃
+REPLY:    @126824 Hey Aneesh, Android is coming soon! We’ll be sure to let you know once it's ready in the Google Play Store 🙂 /W
 --------------------------------------------------------------------------------
-[#32] ID: 124146
-CUSTOMER: @115888 wht can't I upgrade to premium? 🙁😠😡😬 https://t.co/6zrfX6FNiY
-REPLY:    @143766 Hey there! Can you send us a DM with your account's email address or username? We'll take a look backstage /AR https://t.co/ldFdZRiNAt
+[#32] ID: 393165
+CUSTOMER: @SpotifyCares why does my Spotify stop playing while offline? It is songs I've downloaded and haven't had the issue until yesterday.
+REPLY:    @209114 Hey Jay! We just sent you a reply to your DM, so we'll continue assisting you there /TF
 --------------------------------------------------------------------------------
-[#33] ID: 169705
-CUSTOMER: @SpotifyCares https://t.co/L9KsssD9Ms
-REPLY:    @155526 Thanks. We'll get this reported. Great detective work! https://t.co/LpsmyUtme0 /DF
+[#33] ID: 664254
+CUSTOMER: When @115888 charges you six times because you wanted to upgrade to Premium. Still don't have Premium. 😭
+
+@SpotifyCares
+REPLY:    @278310 Hi Sean, help's here! We've just replied to your DM. Let's carry on chatting there /DV
 --------------------------------------------------------------------------------
-[#34] ID: 569623
-CUSTOMER: @115888  https://t.co/9TY8F8UjzB
-REPLY:    @253687 Hey! We're afraid Spotify isn't available in Romania yet. Don't worry, we're launching regularly around the world. Sign up here to be first to hear: https://t.co/XDwWzj7cLP /JS
+[#34] ID: 832770
+CUSTOMER: Aight @115888 how about not playing horror movie ads when I’m listening to music to sleep?
+REPLY:    @318330 Hi Jake! Sorry, we didn't mean to scare you. We'll pass your feedback on to our Ads team /AC
 --------------------------------------------------------------------------------
-[#35] ID: 288526
-CUSTOMER: Hey @147836 will Spotify ever offer a Apple Watch app? Especially now with the LTE versions, I'd love to stream my songs!
-REPLY:    @184736 @147836 Hey Ryan! For the latest updates on this, check out the official idea on our Community: https://t.co/SEK4E4gi22 😊 /C
+[#35] ID: 887927
+CUSTOMER: @115888 can you please sort out your logo please because it is giving me heart palpitations.
+REPLY:    @330831 Hey Kayla, don't have a ... https://t.co/FqCKaVpXEc! Can you send us a screenshot of what you're seeing? We'll take a look /WW
 --------------------------------------------------------------------------------
-[#36] ID: 669992
-CUSTOMER: @SpotifyCares Restarting doesn't do anything. I don't have another device other than my computers. It just seems like the time out is low
-REPLY:    @279800 Hmm. Could you reinstall the app by following the steps here: https://t.co/EqisDMwZAT? Let us know if the same thing happens /JU
+[#36] ID: 1157913
+CUSTOMER: @SpotifyCares awesome!!
+REPLY:    @392384 Cool! Just let us know if we can help with anything else. https://t.co/m4HWSbgHVZ /CO
 --------------------------------------------------------------------------------
-[#37] ID: 163747
-CUSTOMER: I'M GOING TO FUCKING KILL MYSELF CAN SPOTIFY STOP REMOVING MY DOWNLOADED MUSIC @115888 @SpotifyCares YOU FUCKING BITCHES
-REPLY:    @153885 Hey there! Could you DM us your account's username and email address? We'll take a look backstage /DF https://t.co/ldFdZRiNAt
+[#37] ID: 854019
+CUSTOMER: @SpotifyCares can't login it suddenly says my account is offline after i restart(android). After login page&gt;connect with facebook. Pls help
+REPLY:    @322851 Hi Meg! We've just sent a DM your way. Let's carry on chatting there /NJ
 --------------------------------------------------------------------------------
-[#38] ID: 1098076
-CUSTOMER: Wow security fail @115888. Using the app on windows and instead of my user name it’s displaying my password!!!
-REPLY:    @379110 Hey James! Can you DM us your account's email address or username? We'll check backstage /AR https://t.co/ldFdZRiNAt
+[#38] ID: 633988
+CUSTOMER: Wow @115888 all my playlists were deleted and my password was changed and it says my email doesnt exist. I've had my account for years!! what is going on?!
+REPLY:    @270292 Hey Shaina! We’re sorry to hear that. Check out https://t.co/QHn3ok8y2n for what to do next /L
 --------------------------------------------------------------------------------
-[#39] ID: 45735
-CUSTOMER: Does @115888 have a blocking function of sorts? There are artists I don't want any music from ever. https://t.co/XJdCdGWoFO
-REPLY:    @126136 Hi Dana! We don't have any specific info on this right now, but we'd suggest supporting the idea by voting here: https://t.co/hlXvRg5Zog /JE
+[#39] ID: 863688
+CUSTOMER: @SpotifyCares I haven't tried 🤔 I'm using a S8 if that solves anything? Because I know some things aren't compatible with it yet..
+REPLY:    @325107 Thanks! Could you give it another try using this playlist?https://t.co/4cQt9Vn0ec - keep us posted /L
 --------------------------------------------------------------------------------
-[#40] ID: 438222
-CUSTOMER: @SpotifyCares It was not like this before updating my phone to ios11. I use 8.4.20.535 version of Spotify
-REPLY:    @219116 Thanks for letting us know. We'll get it reported. If there's anything else we can help with, give us a shout /CO
+[#40] ID: 840517
+CUSTOMER: @131098 @SpotifyCares would love to be listening to new albums from @319994 + @35357 right now, but content not serving for desktop.
+REPLY:    @319993 Hey Rob! We're here to help. Can you let us know what's happening exactly? We'll see what we can suggest /KM
 --------------------------------------------------------------------------------
-[#41] ID: 897290
-CUSTOMER: @SpotifyCares you added an incorrect album to this artists page - this is Lydia (band, USA) and the album is from Lydia (singer, Japan) https://t.co/cyI4lDZpC9
-REPLY:    @333080 Hey, help's here! Can you send us the Spotify URI? Just right-click the album &gt; Share &gt; URI? Keep us posted /JS
+[#41] ID: 301925
+CUSTOMER: @115888 Y'all need to quit playing with my emotions... This is NOT a new @188034 track. #Wut https://t.co/3dsakHVJWu
+REPLY:    @188033 Hey there. Thanks for the heads-up. We'll get this reported. Great detective work! https://t.co/LpsmyUtme0 /LM
 --------------------------------------------------------------------------------
-[#42] ID: 906512
-CUSTOMER: Hi @115888 
-When will you launch spotify in apple tv?
-REPLY:    @335238 Hey there! We don't have any updates on this yet. Don't worry, we'll let our devs know this is something you'd like to see /GK
+[#42] ID: 429248
+CUSTOMER: hello @115888, isn't today a good day to finally update your 'kpop daebak' playlist?
+REPLY:    @217077 Hi there! We can’t make any promises but we’ll pass your feedback onto the right folks. Stay tuned 🙂 /AC
 --------------------------------------------------------------------------------
-[#43] ID: 376688
-CUSTOMER: @SpotifyCares hey I've been trying to play That's what I like by bruno mars all day and it says its not available anymore what happened?
-REPLY:    @205359 Hey! Can you DM us your account's email address? We'll take a look backstage /MG https://t.co/ldFdZRiNAt
+[#43] ID: 2898
+CUSTOMER: @115888 Why am i not eligible for this offer??
+REPLY:    @287985 Hey there! Could you DM us your account's username and email address? We'll take a look backstage /JX https://t.co/ldFdZRiNAt
 --------------------------------------------------------------------------------
-[#44] ID: 466827
-CUSTOMER: @SpotifyCares @115888 Looking for help for the Gwen Christmas party 🙋🏾‍♂️❤️
-REPLY:    @226108 Hey there! Can you tell us how we could help? We'll see what we can suggest /AR
+[#44] ID: 617741
+CUSTOMER: @SpotifyCares what is up with your new update?? The search won’t come up 🤷🏻‍♀️
+REPLY:    @266563 Hi April! The cavalry's here. What device, operating system, and Spotify version are you using? We'll see what we can suggest /AU
 --------------------------------------------------------------------------------
-[#45] ID: 926721
-CUSTOMER: @SpotifyCares embarrassing customer service from spotify right now not helping me one bit!
-REPLY:    @337632 We've just sent a DM your way. Let's carry on chatting there /QI
+[#45] ID: 300700
+CUSTOMER: @117153  ça m’affiche ce message plusieurs fois que j’essaye, j’avais déjà un compte premieum avant mais avec une autre carte https://t.co/GBjCQ2La7l
+REPLY:    @187697 Hi Sonny! We can help out in English via Twitter, but we also have French support via email at https://t.co/ZgU70SUdKc /NJ
 --------------------------------------------------------------------------------
-[#46] ID: 565413
-CUSTOMER: @115888 My account has been hacked - what to do?
-REPLY:    @252502 Hey, we’re sorry to hear that. Check out https://t.co/iVpg60w61i for what to do next /NQ
+[#46] ID: 313071
+CUSTOMER: @SpotifyCares This is the only one I have. I have 200d/l and 20u/l. More then enough. Please help
+REPLY:    @190764 Alright. We've sent you a DM. We'll continue helping out there /LM
 --------------------------------------------------------------------------------
-[#47] ID: 912577
-CUSTOMER: @SpotifyCares Thank you! 😌
-REPLY:    @336718 You're welcome! Let us know if you ever need us again. We'd be... https://t.co/LgAM6ky9Vv /DR
+[#47] ID: 500973
+CUSTOMER: @117153 I can't change my payment information and my payment won't go through for premium. Please help!
+REPLY:    @244735 Hey, help's arrived! Can you send us your account's email address or username via DM? We'll take a look /GT https://t.co/ldFdZRiNAt
 --------------------------------------------------------------------------------
-[#48] ID: 1036106
-CUSTOMER: @spotifycares Wow, that I completely missed. Thanks AC, that did it
-REPLY:    @296397 https://t.co/sUC7OzMtJR! If we can help with anything else, we're just a tweet away. Have a nice day 🙂 /AC
+[#48] ID: 223041
+CUSTOMER: @SpotifyCares Trying to update payment info for premium. Keeps saying I'm registering for student then I can't prove I'm a student???
+REPLY:    @169275 Hey! Help's here. Can you DM us your account's email address? We'll take a look backstage /RA https://t.co/ldFdZR1cbT
 --------------------------------------------------------------------------------
-[#49] ID: 970858
-CUSTOMER: @SpotifyCares Neither of those worked.
-REPLY:    @350358 Can you let us know more about what's happening? Are you getting similar issues when browsing other websites? /AY
+[#49] ID: 163731
+CUSTOMER: @SpotifyCares I've been trying to get Spotify premium for the past two days with my PayPal and it hasn't been working.
+REPLY:    @153880 Hi there! Can you send us your account's email address or username via DM? We'll take a look /GT https://t.co/ldFdZRiNAt
 --------------------------------------------------------------------------------
-[#50] ID: 909996
-CUSTOMER: @115888 fix the bugs on your update. It’s mad annoying
-REPLY:    @336153 Hey Vick, we'd love to help out! Can you tell us what's happening exactly? /LO
+[#50] ID: 782592
+CUSTOMER: @SpotifyCares premium for family page still blank.
+REPLY:    @306816 Hey Rick! That's not cool. Can you DM us your account's email address? We'll see what we can suggest /MV https://t.co/ldFdZRiNAt
 --------------------------------------------------------------------------------
