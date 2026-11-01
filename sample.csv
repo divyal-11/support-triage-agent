@@ -98,3 +98,4 @@ tweet_id,author_id,inbound,created_at,text,response_tweet_id,in_response_to_twee
 119332,Tesco,False,Wed Oct 11 13:34:06 +0000 2017,"@105861 Hey Sara, sorry to hear of the issues you are having, can I ask if it's the lay out or just the speed of the website responding? TY - Chris",119333,119334
 119333,105861,True,Wed Oct 11 14:05:18 +0000 2017,@Tesco bit of both - finding the layout cumbersome and when removing an item from faves - getting a huge slowdown. Not keen on the thin green line https://t.co/9281OKEebk,"119335,119336",119332
 119335,Tesco,False,Wed Oct 11 15:38:07 +0000 2017,"@105861 If that doesn't help please DM your full name, address and email including the browser and device so we can log this. Thanks - Lee 2/2",,119333
+ 
