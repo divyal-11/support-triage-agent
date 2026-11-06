@@ -17,19 +17,20 @@ AI customer-support agent for @SpotifyCares tweets. Classifies intent, drafts a 
 - Create `src/`, `data/`, `docs/`, `prompts/` folders
 - Move `twcs/twcs.csv` → `data/twcs.csv`
 
-## Phase 1 — Data & brand filter ⬜ (not started)
+## Phase 1 — Data & brand filter ✅ (done)
 **Goal:** turn the 2.8M-row raw dataset into just SpotifyCares customer/reply pairs.
 
-- `src/filter-brand.ts` — two-pass streaming filter (already written)
-- Fix: match `inbound` case-insensitively (`row.inbound.toUpperCase() === "FALSE"`)
-- Run: `npx ts-node src/filter-brand.ts`
-- **Deliverable:** `data/spotifycares-pairs.json` — array of `{ customer_tweet_id, customer_text, brand_reply_id, brand_reply_text, created_at }`
-- **Checkpoint:** know the exact pair count. Expect somewhat under ~16k (some parent tweets fall outside the dataset's collection window).
+- `src/filter-brand.ts` — two-pass streaming filter
+- Output: 13,922 clean pairs saved to `data/spotifycares-pairs.json`
 
 ---
 
-## Phase 2 — Read the data, define the intent taxonomy
+## Phase 2 — Read the data, define the intent taxonomy ✅ (done)
 **Goal:** a small set of intents (6-10), defined from what's actually in the data — not guessed upfront.
+
+- `src/sample-for-review.ts` sampled 50 real customer/brand interactions.
+- Finalized 8 mutually exclusive intents in `docs/taxonomy.md` with explicit escalation actions.
+- Strongly typed `IntentLabel` in `src/types.ts`.
 
 Steps:
 1. Write `src/sample-for-review.ts` — pulls a random sample of ~40-50 `customer_text` values from `spotifycares-pairs.json` and prints/writes them to a file for manual reading.
