@@ -1,0 +1,2002 @@
+[
+  {
+    "customer_tweet_id": "548700",
+    "customer_text": "@SpotifyCares I got charged for premium, but I never purchased it",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1010852",
+    "customer_text": "@SpotifyCares I can't remember any of my login details and I ambout to pay a subscription which I do not want.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "607493",
+    "customer_text": "Hey @115888, why all the playlists are now stated with Chinese symbols which I don’t understand? What happened? https://t.co/kAn2cTV9XE",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "664704",
+    "customer_text": "Thor OST please @115888",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "832610",
+    "customer_text": "@115888 y'all gotta add a \"scroll to the bottom of this giant ass playlist\" button",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "558609",
+    "customer_text": "@SpotifyCares hey just done the new android system update on my obe plus 3 and am having problems where the sound goes down then up when I play a song, close the app or get any notifications. Any fix?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "228104",
+    "customer_text": "petition for @115888 to let 2 people listen to music at the same time ...... 👏🏽",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "845921",
+    "customer_text": "hey @115888 quit giving me suggested tracks because i hate every single one. thanks.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "409777",
+    "customer_text": "@SpotifyCares Windows: 1.0.65.320.gac7a8e02\n\nApp: 8.4.22.857armV7",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "95821",
+    "customer_text": "@SpotifyCares Is this for every song and artists or only the artists? I see only a karaoke song. I want the whole song it's a remember to are grandmother",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "666345",
+    "customer_text": "@SpotifyCares I'm not sure when it happened, but the tracklist to \"Issa Album\" by 21 Savage got jumbled up pretty badly. Spotify album link and correct tracklist: https://t.co/KtP0c7Qori | https://t.co/F8PbYJFsXG",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "184247",
+    "customer_text": "Why this song unplayable at Indonesia?  @SpotifyCares @118266 \n\nhttps://t.co/ES7FgR4AFY",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "2816",
+    "customer_text": "@115888 Oh no! It says P9, and I have P36 load, yet it says \"insufficient\" 🙁",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "166663",
+    "customer_text": "@117153 Guys a little help here? Isn't working… https://t.co/R4sdWnx8AT",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "781713",
+    "customer_text": "@117153 my premium won’t work even though I’ve paid for it and I’ve followed the steps on website..please help..been a week",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "438408",
+    "customer_text": "@SpotifyCares Hello. My card was charge for 4.990 IDR but still free status. Wish you can help me. Thx. My ID __email__",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "871350",
+    "customer_text": "@SpotifyCares So yal really gon try to finesse me to stay 🙄",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "665733",
+    "customer_text": "@SpotifyCares iPhone 6s, iOS 11.1, Spotify version 8.4.25.906. I️ don’t think it’s updated since initial connect. Am i to do it manually?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "335040",
+    "customer_text": "@SpotifyCares If I had a single account and am now part of a family plan will my single subscription billing get automatically cancelled?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "868519",
+    "customer_text": "@spotifycares have 2 account want To delete one of the 2 but can't remember my username and password. ref #P0393A8878",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "558583",
+    "customer_text": "@SpotifyCares my partner got an email this morning saying his password on his account had changed when he hadn't changed it. He can no longer access his account... What do we do?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "827228",
+    "customer_text": "I want to reset my user name because I misspelled it. Please help! @SpotifyCares",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "44347",
+    "customer_text": "@115888 Pwede ba load pang bayad nito?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1157282",
+    "customer_text": "@SpotifyCares hey music keeps getting deleted from my library, please help, thanks.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "808969",
+    "customer_text": "@SpotifyCares 'This song is not available. If you have the file on your computer you can import it.' applies to tracks by Kendrick Lamar.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "862439",
+    "customer_text": "No, @115888. I do not want to fucking listen to @14797. Ever. Why can’t we block music we don’t ever want to listen to yet?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1106821",
+    "customer_text": "@117153 I'm being billed for premium but my account shows free. I've reset all password and logged in and out multiple times.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "506053",
+    "customer_text": "@SpotifyCares Hi sorry forgot to delete the message I actually found an email about it in my spam folder managed to get it thank you though! :)",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "307685",
+    "customer_text": "I am v disappointed with @115888 software, it fails regularly, loosing connection with @118117 \n@118117 software far more robust and reliable",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "429245",
+    "customer_text": "@SpotifyCares Started doing it again yesterday. However, the same issue occurs when I use iTunes now, so, it must be an iOS problem.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "224115",
+    "customer_text": "@SpotifyCares @169550 I have the same problem...",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1009379",
+    "customer_text": "@SpotifyCares I'm confused with my payment I need help. Could I send a DM?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1094488",
+    "customer_text": "Hi @SpotifyCares I'm not able to sign up to @115888. I don't understand the problem.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "689564",
+    "customer_text": "@SpotifyCares i paid using paymaya in student discount, yet my account is still in spotify free..",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "847136",
+    "customer_text": "@117153 Trying to redeem my premium gift card code and it's not working... Starting to get annoying now",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "572678",
+    "customer_text": "@SpotifyCares @115888 How do I remove a PS4 link if it's not my PS4?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "262665",
+    "customer_text": "@SpotifyCares Windows10 - latest desktop version. :) &lt;3",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1061643",
+    "customer_text": "@SpotifyCares Thanks, that works!",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "633743",
+    "customer_text": "Hi @115888 I have payed for premium but ads are still showing up and I can’t download my playlists back. Pls help",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "110041",
+    "customer_text": "@115888 How is d pymt method if no card?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "353155",
+    "customer_text": "@SpotifyCares hey i have a problem with the payment  with my credit card can you help me ?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "30605",
+    "customer_text": "@117153 My account __email__ is still on the free version but paid already",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "839925",
+    "customer_text": "@SpotifyCares It was, and for some reason restart of device was no help. Just cleared cache and tried again, seem to be back in action now. Thanks!",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "689541",
+    "customer_text": "@SpotifyCares Hi there. Unfortunately it didn’t work. \nTried the same scenario on my wife’s phone (she’s got the same iOS and app versions). The gif muted the Spotify audio, but it kicked back in afterwards. Tres strange.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "32481",
+    "customer_text": "Hey @115888  my premium family is gonna expire soon and until now none of my family members can even use it. fix it please",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "253497",
+    "customer_text": "@SpotifyCares dell precision laptop, Win10, in Chrome browser",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "379989",
+    "customer_text": "hey @115888 i'm gonna need u guys to stop playing horror movie ads at night. i'm just tryna enjoy my \"simp/sad/feels\" playlist.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "965875",
+    "customer_text": "@115888 @277653 Wtf happened to all nbayoung boy albums?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "700434",
+    "customer_text": "I sent you messages. Please respond. Thanks. @SpotifyCares",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1052727",
+    "customer_text": "@SpotifyCares Hi! Can I ask how to unsubscribe my plan in premium subp for spotify?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1133684",
+    "customer_text": "@SpotifyCares hi, any updates about the official app for Apple Watch?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "708720",
+    "customer_text": "@SpotifyCares Windows 10 and I tried both Microsoft Edge and Google Chrome browsers",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "367632",
+    "customer_text": "@SpotifyCares please solve the fucking problem so that I can do my homework with some music",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "621424",
+    "customer_text": "@SpotifyCares My email seems to be entered twice with a different password my music has disappeared? Please help, thank you. SJ",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1157923",
+    "customer_text": "@SpotifyCares upgraded to Family, link in e mail to send 'invites' gets me this: https://t.co/cAOz3LTVDe",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "93960",
+    "customer_text": "@115888 are you guys having issues with random pausing? It’s seriously frustrating 😐",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "91670",
+    "customer_text": "OK, it just happened again and I updated my account , @SpotifyCares can you help? Someone is hijacking my account.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "345524",
+    "customer_text": "@SpotifyCares Hey RK/Content Team, any clue when you’ll solve the issue to @127153’s song?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "902969",
+    "customer_text": "@SpotifyCares Nope, it didn't help.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "460201",
+    "customer_text": "@SpotifyCares Hello! I'm trying to log in to my web player on Chrome, but every time I'm taken to the login/sign up page, I click login, enter my username and password, then I'm taken back to the login/sign up page. Do you know what might be happening?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1118273",
+    "customer_text": "Spotify ”imponerar”. När jag bytt kort så föreslår de ”nedgradering” istället för fortsätta... De knuffar aktivt konsumenten ifrån sig! https://t.co/dFSTDfYwcm",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "283251",
+    "customer_text": "@SpotifyCares Cool, thanks 😉",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "314095",
+    "customer_text": "@117153 can't do anything on my Spotify what happened to my premium??",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "933337",
+    "customer_text": "@118266 hello, sy mau tanya, sy pengguna indosat, nomor sy terdaftar akun premium, sy ingin berhenti langganan, tp tdk bisa login akun",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "982144",
+    "customer_text": "Why has @115888 deleted all my playlists???",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "875002",
+    "customer_text": "@SpotifyCares Nice, will give it a spin https://t.co/NL11JIcuuH",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "879273",
+    "customer_text": "@SpotifyCares I was charged twice this month, how do I go about getting a refund?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "609674",
+    "customer_text": "@SpotifyCares @264942 No, we can't anymore store music on SD card lel",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "656482",
+    "customer_text": "@SpotifyCares Or maybe it was the 2014 one. Or even 2013. But not the 2016 one. That was such a disappointment. With all that listening data you have on me, I'd love to see it SUPER personalized. Thanks guys!",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "668699",
+    "customer_text": "@115888 put the new wdw ep on spotify come on",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "781331",
+    "customer_text": "@SpotifyCares do you like music? why interrupt music with horrible ads that have music that is nothing like the music one is listening to?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "572068",
+    "customer_text": "@115888 When do you think we will see an app for the Apple Watch. I need my Spotify! #spotifyapplewatch #ineedmyspotify #music #applewatch https://t.co/hhOKRFPUsn",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "184607",
+    "customer_text": "@SpotifyCares mac version: 10.13\nspotify version: 1.0.65.320.gac7a8e02",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "113814",
+    "customer_text": "@SpotifyCares I want A \"mix-button\" so the songs mix in your playlist. It's very tuff to change all the song by your shelf. It takes a long time.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "395411",
+    "customer_text": "@SpotifyCares .@115888 @SpotifyCares I just got email incorrectly saying it was fixed. It's not! Please mark it as not fixed. https://t.co/yG7PBtu6id",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "887921",
+    "customer_text": "@SpotifyCares Thanks, my kid appreciates it. I don't mind on other stuff, just kids and stuff.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "871327",
+    "customer_text": "@SpotifyCares @115888 no, it did not work and I'm in misery for it.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "898861",
+    "customer_text": "Excuse me @115888 why is Anything But Mine by @28787 gone .",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "883442",
+    "customer_text": "@SpotifyCares There you go: https://t.co/25HcN45T2I",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "293867",
+    "customer_text": "@SpotifyCares @SpotifyCares you fixed it! #thankyou #spotify",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "384894",
+    "customer_text": "@SpotifyCares It didn’t work. Seems to be when I plug it into my usb to play in my car",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "667904",
+    "customer_text": "Hello! I'm from Brazil and I signed up for Spotify Premium, but it's popping up that I'm not premium. I received a message from the card bank saying that I had made a purchase on Spotify but I'm not yet premium, please help me. I'm sorry for that awful English\n@117153 https://t.co/qJ2CjtBTsd",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "847175",
+    "customer_text": "@SpotifyCares Trying to play Winnerbäck on either iPhone or iPad doesnt work. Nothing happens when I click song or shuffle.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "739020",
+    "customer_text": "@SpotifyCares hey I'm trying to make a payment for premium account and it's saying there are issues w/ my card and there isn't??",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "617744",
+    "customer_text": "@SpotifyCares Pull up @266565 4eva is a mighty long time album for example",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "393174",
+    "customer_text": "Shame you can't remove songs from Discovery Playlist on @115888. Spotted an upcoming U2 song and can't preemptively skip it.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "510505",
+    "customer_text": "@SpotifyCares Hulu isn't able to verify my premium student spotify + hulu when I try to make a hulu account. Anyway you can help?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1013938",
+    "customer_text": "@SpotifyCares They don’t work. Next/prev buttons are greyed out and the play button should be a pause button and doesn’t do anything",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "511827",
+    "customer_text": "@115888 is there a way to import an OPML feed of my preferred podcasts to Spotify?Want to give Spotify a shot on my podcasts but don't want to spend all afternoon searching/selecting from inside your app; just want to import opml",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "265069",
+    "customer_text": "@115888 really means it when they say they care! @SpotifyCares Thank you so much for helping me today!",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "648670",
+    "customer_text": "@SpotifyCares hi, I'm on the previous iOS to the latest. Just updated Spotify and now it won't open. Have restarted the phone and app with no luck. Is this a bug? Best to update to latest iOS?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "454697",
+    "customer_text": "@SpotifyCares No, it's included in my phone package so why would I pay for it twice? Will I have to delete my current acc and start again?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "356506",
+    "customer_text": "@SpotifyCares Why do you play ads in languages that people do not speak?  #SpotifyDoesntCare #Spotify",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "338733",
+    "customer_text": "@SpotifyCares in 4 months I've had my offline downloads cleared three times for no reason #whatamipayingfor",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "566323",
+    "customer_text": "@SpotifyCares Thanks! It seems to have worked OK, although the wording didn't acknowledge at any point that I already had Premium.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1090614",
+    "customer_text": "@SpotifyCares I am having problems with resetting my password. When I click the link it says I've already used the link?? Pls help",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "742596",
+    "customer_text": "@SpotifyCares Cheers for the reply, and my suggestion for a long press feature is the old one lol :)",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "554140",
+    "customer_text": "@SpotifyCares hi! My Spotify app on my Galaxy S7 Edge always freezes when I reach a certain song, to the point that even restarting my phone does nothing. Can you help?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1102738",
+    "customer_text": "@SpotifyCares I signed up for family premium and it says my code received on the invite email isn’t valid when I enter it under redeem",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1101770",
+    "customer_text": "@SpotifyCares spotify logged me out of my account and every time i try to login, it won’t let me press the button. i’ve tried deleting the app and reinstalling it but nothing will help. is there anything i can do?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "662946",
+    "customer_text": "@SpotifyCares Hi, I need to cancel my spotify premium subscription before it renews tomorrow, but the website is down for maintenance so I can't cancel it there. What can I do?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "459140",
+    "customer_text": "@SpotifyCares Send a HTTP GET request (eg: https://t.co/Mm27ynlOyQ) using any device. Tested on Windows and Linux with CURL, ajax and Firebug.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "56069",
+    "customer_text": "@SpotifyCares __email__\nPW: edeire20021967",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "743549",
+    "customer_text": "@SpotifyCares I will have it open in its own tab from now on, it seems to be working right now",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "262660",
+    "customer_text": "@AppleSupport is there a fix/iOS update coming for the issues with controlling @SpotifyCares or showing songs on lock screen?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "621434",
+    "customer_text": "@115888 I got charged twice in September. Can you please help refund this money back. Thanks",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "323493",
+    "customer_text": "@115888 could you add “ oh god “ by post malone it came out August of 2016-thank you",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "712176",
+    "customer_text": "@115888 you guys need better customer service. This will be the third time I've talked to you without anyone helping me.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "323073",
+    "customer_text": "Why is Zhang Yixing's new album not available in @115888 ?! https://t.co/pbA8NKwO2v",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "925785",
+    "customer_text": "@115888 How can they not have this gem on there?? https://t.co/ZzOubYumQa",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "274299",
+    "customer_text": "@SpotifyCares I PMd you the screenshots, let's move this conversation there 🙃",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "620387",
+    "customer_text": "@28787 why is \"anything but mine\" from live in no shoes nation showing as unavailable on @115888 , i need that song in my life",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "299751",
+    "customer_text": "@SpotifyCares Here you go. Every single song by Tycho, here's one: spotify:track:5EeNRe6Fi29tTrssVzl4dw https://t.co/5DOHEZTbv3",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "455626",
+    "customer_text": "@SpotifyCares I can't log in to my account and i'm a premium member. when I try to go to the password reset page, I get error: \"The CSRF token is invalid. Please try to resubmit the form.\" - this has been going on for 3 days. HELP!!",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "808959",
+    "customer_text": "@SpotifyCares Hi hello Spotify cares mine is still pausing and playing as well as changing songs",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "39766",
+    "customer_text": "@115888 web player continually cuts out on me and absolutely ruins my flow while at work. 👎",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "783560",
+    "customer_text": "@SpotifyCares excuse I got charged $10 when I have the student discount",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "911254",
+    "customer_text": "@SpotifyCares Cool will do , thanks",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "701741",
+    "customer_text": "@115888 My favorite song from #DavidAllenCoe “If that ain’t country” was recently removed from your library. Why??? #AnswerTime",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "414130",
+    "customer_text": "@SpotifyCares It's a Roku 3!",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "656557",
+    "customer_text": "@SpotifyCares still a student... even if i log into uni days, i've still been charged £10 for the month when i am eligible for the £4.99 offer",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "361507",
+    "customer_text": "@115888 where is the “my downloads” section inside the app, where I can find everything I have downloaded all together?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "765650",
+    "customer_text": "@SpotifyCares Nor do I see the icon for Spotify in the corner of my phone anymore when music is playing.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "504287",
+    "customer_text": "WHY IS POST MALONE’S NEW ALBUM NOT ON SPOTIFY YET??????? @115888",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "416207",
+    "customer_text": "Dear @115888 there're some problems with #ElDorado I cannot play some songs @31886",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "806554",
+    "customer_text": "@SpotifyCares I get it. When you own your own streaming services, I guess you'd want your music there.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "991235",
+    "customer_text": "@115888 can suck my dick I paid for premium a month ago and it still ain't activated. That's what I get for not getting Apple Music",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "905982",
+    "customer_text": "@SpotifyCares I can no longer play led zeppelin?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "499277",
+    "customer_text": "Okay @115888 but when will you be streaming the Twilight soundtracks pls?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1031939",
+    "customer_text": "@SpotifyCares y'all taking super long to approve my song, lol. Your competitors have it in their stores already and I submitted a week ago",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "647130",
+    "customer_text": "@SpotifyCares I haven't changed my payment details since I got my new card and you guys continue to have issues. They're on your end I'm afraid, not mine.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "223051",
+    "customer_text": "@115888 @SpotifyCares hi! I’m already on premium and want to upgrade to family. Do i get charged twice for it once I do the upgrade?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "773114",
+    "customer_text": "@SpotifyCares but there is no option for debit card https://t.co/zH08wdiW6U",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "500918",
+    "customer_text": "@115888 just removed my playlist ive been adding too for years WTF MADD THAT SHIT WILL TAKE FOREVER TO GET BACK!",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "551316",
+    "customer_text": "@SpotifyCares Hey, on the explicit version of FFDP's A Decade of Destruction the track Under and Over It is definitely edited for explicit content. So far that's the only one I've found but I'm still listening to the album.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "750197",
+    "customer_text": "@SpotifyCares You never answered me. :(",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "369947",
+    "customer_text": "You think i give a shit if you cancel my shit, @115888? \nStreaming is like being fed through a tube, anyway. Doesn’t compliment the senses",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "566276",
+    "customer_text": "@SpotifyCares macOS High Sierra 10.13.2 Public Beta (Build 17C79a). Spotify 1.0.68.407.g6864aaaf.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "864559",
+    "customer_text": "@SpotifyCares No luck. Same problem and error message :(",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1117800",
+    "customer_text": "@115888 gimme back my premium fam I already paid for this month tf is this",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "260045",
+    "customer_text": "@SpotifyCares Galaxy S7 and 8.4.21.508 for spotify version. It's up to date and does not need any updates.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "755968",
+    "customer_text": "@SpotifyCares help Spotify someone’s hacked my account and changed my registered email address 😭😭",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "494224",
+    "customer_text": "@SpotifyCares I listen to mostly podcasts but will test with music today. Does the same when not using Bluetooth and just playing through phone speakers.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "847128",
+    "customer_text": "@SpotifyCares That's gonna be 1.0.65.320.gac7a8e02",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "110121",
+    "customer_text": "@SpotifyCares I haven't made an account yet. I want to check that when I become a student I won't have to continue paying full price.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "83689",
+    "customer_text": "i was thinking, what if @115888 had achievements for like how many times you played a song or when someone else is listening to your playlist",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "130884",
+    "customer_text": "@127240 LISTEN I DON’T USE SPOTIFY THAT MUCH AND I DID SOMETHING THAT SKIPPED IT",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "885162",
+    "customer_text": "@115888 please fix your app. My music keeps getting deleted. #lame",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "187745",
+    "customer_text": "@SpotifyCares I've just saved albums and I'd imagine I'd have hundreds (maybe we'll say 400?) so maybe ballpark 5,000?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "852672",
+    "customer_text": "@115888 how can i discover the current playlist i'm listining? I started one of suggested playlists but i can't find his name",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "539190",
+    "customer_text": "@SpotifyCares Just switched back from Apple Music. This is how everything is showing up. Any suggestions to make this not suck? https://t.co/J5xZzFrz44",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "163713",
+    "customer_text": "@115888 any plans to improve queue functionality? (queuing on web player, clearing queue on Android)",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "911636",
+    "customer_text": "@SpotifyCares Nine of that applies to me, at least not that i know of. My sd card works with everything else.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "158950",
+    "customer_text": "@SpotifyCares can you reply to my DM plz 💘",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "558577",
+    "customer_text": "Hey @115888 I tried taking up your annual subscription offer but can't find where to go ahead with it after tapping the link in the app. Can you help?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "781167",
+    "customer_text": "So @115888 keeps doing this thing where all my downloaded songs disappear and then when I go to listen to music offline I can't. Pretty awesome. @SpotifyCares any idea why? I've reinstalled, cleared out the offline devices list, redownloaded music numerous times.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1074057",
+    "customer_text": "@SpotifyCares Hey Spotify. I can't share stuff on mobile anymore. Latest ver. of app, Android Oreo on Pixel. Crashes out. Any ideas?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "654652",
+    "customer_text": "When are you going to increase the saved song limit @115888? Apple Music has 100,000 so what’s stopping you?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "500949",
+    "customer_text": "@117153 my desktop player and iphone player are skipping through songs, is the platform down?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "293459",
+    "customer_text": "@117168 I'm locked out of my account and I'm thinking it must be hacked. I went to the help page but there are no options for my problem",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "890658",
+    "customer_text": "@SpotifyCares It doesn't. I've been through this with you guys literally like 12 times and no one can figure it out",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "381531",
+    "customer_text": "@115888 I can't play music on Windows 10 via native app, Store app nor Chrome: \"song not available\". It works on iOS/Android. Any clue?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "861382",
+    "customer_text": "@SpotifyCares Okay thanks for your help. I'll do that and",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1067197",
+    "customer_text": "@SpotifyCares I think so because I listen to my other playlist and it’s completely fine. I just wanna listen to my favorite band",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "884055",
+    "customer_text": "Dear @115888 why don't you have a more social app. Something where you can share, suggest and discuss music?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "479854",
+    "customer_text": "@125633 it won’t let me join Spotify premium? It says payment failed",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "824189",
+    "customer_text": "@SpotifyCares I got it! Thank you though. It started working a bit later.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1101329",
+    "customer_text": "@SpotifyCares I’m freaking out and I need your help NOW! PLEASE GET BACK TO ME ASAP!!!!",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "533542",
+    "customer_text": "@SpotifyCares Is there a way to force lower quality streaming to a Chromecast? I've got terrible internet. (Premium subscription if that makes a difference.)",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1059926",
+    "customer_text": "@116130 ok honestly this is doing my nut in now whys it keep playing other random playlists when I’m tryna listen to one album??",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "219037",
+    "customer_text": "@SpotifyCares would love if i could get the last 2 discover weekly playlists back 🙇🏻",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "327160",
+    "customer_text": "@SpotifyCares the united states",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "723380",
+    "customer_text": "@SpotifyCares Oh! Thanks for the quick reply! 😊💚",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "37708",
+    "customer_text": "hi @SpotifyCares i think im being charged twice, can you help??",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "379057",
+    "customer_text": "@SpotifyCares It's almost impossible to seize through all the extra junk that passes off as official albums!",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "921215",
+    "customer_text": "@SpotifyCares Can I purchase and download music from @115888",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1039759",
+    "customer_text": "@SpotifyCares I went online, closed the app and opened and played a song, same exact thing happened as when offline",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "551299",
+    "customer_text": "@117153 \"can't play the current song\" every song",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "877448",
+    "customer_text": "Hmm @SpotifyCares, I can't seem to find @37032's new album. Why is that?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "712185",
+    "customer_text": "@SpotifyCares I've been having troubles playing through Google Home today. Any ideas?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1043543",
+    "customer_text": "@SpotifyCares I am a Premium member and almost 8/10 times, a song will stop playing at 10 seconds and I will be forced to skip the song. Is there a way to fix this? I've already tried reinstalling the app several times.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1055367",
+    "customer_text": "@SpotifyCares Sure. Waiting... 🎧❤",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "572674",
+    "customer_text": "@SpotifyCares Please reply to my DM.. I want my account back asap \nhttps://t.co/jMp49ziaxU",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "535333",
+    "customer_text": "Dear @116130 you are officially shit. Your suggested songs \"feature\" ruins the listening experience turning everything into a @244027 playlist.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "605291",
+    "customer_text": "@SpotifyCares @116130 wow wtf where’s my account gone, paying money to listen to an ad 😪",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1041334",
+    "customer_text": "@115888 why isn't Truly, Madly, Deeply or Irresistible by One Direction on spotify???",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "20794",
+    "customer_text": "@118266 2 hari yang lalu saya mendapat email tsb padahal data alamat tinggal tidak ada yang diubah mohon bantuannya https://t.co/VbB95ZFGDB",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1102733",
+    "customer_text": "the fact that i can't stream this on @115888 makes me very upset https://t.co/DAGKCfLUwm",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "396211",
+    "customer_text": "@SpotifyCares Hi I was supposed to have a 60 trial threw sprint it was on my sprint add services but Spotify gave me only seven day trial!😒🙁",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "211407",
+    "customer_text": "@SpotifyCares Doesn't seem to have worked. It's definitely not blocked though, it's worked up until recently",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "642104",
+    "customer_text": "demo_02 isnt on spotify yet wtf is this mistreatment",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "29610",
+    "customer_text": "@SpotifyCares Followed the procedure 3 times, no luck :-( Anyway it's not so urgent as I can also stream to my Bluetooth speaker from my iPhone. Hope the next update fixes it ;)",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "727425",
+    "customer_text": "@115888 God, you guys Fucking SUCK. Give us the old Web Player. This ''new'' Shit, is COMPLETELY ATROCIOUS, and UNUSABLE!",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "750120",
+    "customer_text": "Why tf does @115888 play a radio based off your playlist? Play the playlist i spent time making it for a reason",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "867555",
+    "customer_text": "@SpotifyCares Can you please stop trying to shove Post Malone down my throat please? Thank you.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "83654",
+    "customer_text": "@4984 down auf iOS?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "620415",
+    "customer_text": "Hi @spotifycares the Windows 10 app freezes and crashes consistently on my PC. Resetting, uninstall/reinstall has not helped. Known issue?",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "1021648",
+    "customer_text": "@SpotifyCares Ok hang on",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "389009",
+    "customer_text": "@SpotifyCares So in other words... Not anytime soon. @115948 here I come.",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  },
+  {
+    "customer_tweet_id": "728609",
+    "customer_text": "@SpotifyCares It's been an ongoing problem for a few weeks now, I have to keep restarting the desktop app, reloading the web app etc. periodically",
+    "predicted_intent": "feedback_or_complaint",
+    "confidence": 1,
+    "retrieved_examples": [],
+    "drafted_reply": "Hi there! Thanks for reaching out. We appreciate your feedback and have noted it down /Spotify",
+    "should_escalate": false,
+    "escalate_reason": "Trivial baseline policy: always auto-handle without human escalation."
+  }
+]

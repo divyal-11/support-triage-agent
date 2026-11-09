@@ -54,14 +54,18 @@ Steps:
 
 ---
 
-## Phase 4 — Baselines
-**Goal:** something trivial and something simple to compare the real system against. Build these *before* the real system so you have honest comparison numbers, not numbers reverse-engineered to look good.
+## Phase 4 — Baselines ✅ (done)
+**Goal:** something trivial and something simple to compare the real system against.
 
-- **Trivial baseline:** majority-class classifier (always predict the most common intent from the golden set) + always auto-handle. `src/baseline-trivial.ts`
-- **Simple baseline:** basic keyword/rule-based intent matcher (e.g. "refund" or "charged" → billing) with no retrieval, canned generic replies per intent. `src/baseline-simple.ts`
-
-**Deliverable:** both baselines runnable, each producing predictions on the golden set in the same output shape you'll use for the real system (see `AgentResult` in Phase 5).
-**Checkpoint:** you know both baselines' accuracy numbers before building the real thing — these are your floor.
+- **Trivial Baseline (`src/baseline-trivial.ts`):** Majority class classifier (`feedback_or_complaint`) + blind auto-handle.
+  - Intent Accuracy: **39.00%**
+  - Escalation Recall: **0.00%** (55 critical false negatives)
+- **Simple Baseline (`src/baseline-simple.ts`):** Rule-based keyword matcher + canned static replies.
+  - Intent Accuracy: **91.00%**
+  - Escalation Recall: **65.45%** (19 critical false negatives missed due to keyword brittleness)
+  - Escalation F1: **79.12%**
+- Saved predictions: `data/predictions-trivial.json` and `data/predictions-simple.json`.
+- Established the official performance floor before building the Core Agent.
 
 ---
 

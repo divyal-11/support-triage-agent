@@ -1,9 +1,10 @@
 import fs from "fs";
 import path from "path";
 import { parse } from "csv-parse";
-import { ConversationPair } from "../types";
+import { ConversationPair, GoldenExample } from "../types";
 
 const PAIRS_PATH = path.join(__dirname, "../../data/spotifycares-pairs.json");
+const GOLDEN_SET_PATH = path.join(__dirname, "../../data/golden-set.json");
 
 /**
  * Creates a memory-efficient stream parser for CSV files.
@@ -31,6 +32,17 @@ export function loadSpotifyPairs(): ConversationPair[] {
   }
   const raw = fs.readFileSync(PAIRS_PATH, "utf-8");
   return JSON.parse(raw) as ConversationPair[];
+}
+
+/**
+ * Loads the official Golden Evaluation Set (200 ground truth samples).
+ */
+export function loadGoldenSet(): GoldenExample[] {
+  if (!fs.existsSync(GOLDEN_SET_PATH)) {
+    throw new Error(`Golden set file not found at ${GOLDEN_SET_PATH}. Run Phase 3 first.`);
+  }
+  const raw = fs.readFileSync(GOLDEN_SET_PATH, "utf-8");
+  return JSON.parse(raw) as GoldenExample[];
 }
 
 /**
