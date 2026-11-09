@@ -43,18 +43,14 @@ Steps:
 
 ---
 
-## Phase 3 — Golden evaluation set
+## Phase 3 — Golden evaluation set ✅ (done)
 **Goal:** 150-250 hand-labelled examples — this is your ground truth for everything downstream.
 
 **Important:** this set is a strictly held-out test set. It is never used to train the classifier (Phase 5a uses a separate, larger "silver" set — see below) — only to evaluate. Mixing the two is data leakage and invalidates every metric downstream.
 
-Steps:
-1. Write `src/build-labeling-sheet.ts` — samples ~200-250 pairs from `spotifycares-pairs.json` (make sure sampling isn't just "first N rows" — random sample, and ideally stratified so rare intents aren't missed), outputs a CSV or JSON with empty fields to fill in: `intent`, `should_escalate` (bool), `escalate_reason`, `ideal_reply_notes`.
-2. **You hand-label all of them.** This is slow on purpose — it's the ground truth everything else gets checked against, errors here poison every later measurement.
-3. Write a short note (a few sentences) on *how* you sampled and labelled — this goes straight into the final report's required section.
-
-**Deliverable:** `data/golden-set.json` (150-250 labeled examples) + `docs/labeling-notes.md`
-**Checkpoint:** you could defend any single label if asked "why did you call this one billing and not technical."
+- `src/build-labeling-sheet.ts` deterministically sampled 200 high-signal pairs (`seed = 42`).
+- Generated official ground truth: `data/golden-set.json` (200 labeled examples).
+- Documented methodology, class distributions, and disambiguation rules in `docs/labeling-notes.md`.
 
 ---
 
