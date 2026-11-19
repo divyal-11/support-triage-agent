@@ -71,3 +71,22 @@ export interface EvaluationSummary {
   escalation_false_negatives: number;
   escalation_true_negatives: number;
 }
+
+export interface JudgeRubricScore {
+  groundedness: number; // 1 - 5
+  tone_and_brand: number; // 1 - 5
+  escalation_safety: number; // 1 - 5
+  actionability_and_length: number; // 1 - 5
+  overall_score: number; // 1.0 - 5.0
+  reasoning: string;
+}
+
+export interface JudgeValidationSummary {
+  total_samples: number;
+  agreement_within_one_point_pct: number; // % within +-1
+  cohens_kappa_escalation: number; // 0.0 - 1.0
+  spearman_correlation_quality: number; // -1.0 - 1.0
+  human_mean_score: number;
+  judge_mean_score: number;
+}
+
