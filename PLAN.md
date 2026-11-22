@@ -97,15 +97,17 @@ Steps:
 
 ---
 
-## Phase 7 — Failure analysis
+## Phase 7 — Failure analysis ✅ (done)
 **Goal:** find and understand where it breaks.
 
-- Pull the worst-scoring examples from Phase 6 (by metric and by judge score).
-- Group them into ~5 real failure modes (e.g. "misclassifies sarcasm as positive," "retrieval pulls superficially similar but wrong-intent cases," "escalation threshold too conservative on ambiguous billing tweets").
-- For each: 1-2 real examples, a hypothesis for *why* it fails, and (if easy) whether a quick fix helps.
-
-**Deliverable:** `docs/failure-analysis.md`
-**Checkpoint:** none of your failure modes are "the LLM was wrong sometimes" — they should be specific and diagnosable.
+- Audited false negatives and mispredictions from the 200 benchmark evaluation.
+- Documented Top 5 diagnosable failure modes with real examples, hypotheses, and mitigations:
+  1. Sarcastic & Ironic Sentiment Inversion
+  2. Context Truncation in Multi-Turn Threads
+  3. Semantic Overlap Between Emotional Venting & Technical Bug Reports
+  4. Implicit Financial & Billing Terminology
+  5. Lexical Overlap Distraction in TF-IDF Retrieval (RAG)
+- **Deliverable:** `docs/failure-analysis.md` created.
 
 ---
 
