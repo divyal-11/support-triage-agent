@@ -111,26 +111,19 @@ Steps:
 
 ---
 
-## Phase 8 — Report & decision log
+## Phase 8 — Report & decision log ✅ (done)
 **Goal:** the write-up. Max 6 pages or a thorough README section.
 
-Must include (per assignment spec):
-- Problem framing — what "good" means for Spotify support, what you deliberately didn't build
-- Results vs. both baselines (Phase 4/6 table)
-- Failure analysis (Phase 7, condensed)
-- **"What's misleading about my headline number"** — be honest about small golden-set size, TF-IDF's semantic-similarity blind spot, judge-agreement caveats, dataset window cutting off some threads, etc.
-- What you'd do with one more week (e.g. swap TF-IDF retrieval for embeddings, expand golden set, fine-tune classifier)
-
-Plus a separate **decision log**: 10-15 non-obvious decisions and why (brand choice, TF-IDF+LogReg over LLM classification, deterministic escalation, generative vs extractive reply drafting, etc. — most of these you've already reasoned through in this conversation, just write them down).
-
-**Deliverable:** `REPORT.md` + `DECISIONS.md`
+- **`REPORT.md`** created covering Problem Framing, Baseline Comparison Table, Failure Analysis, Mandatory Section: "What is misleading about my headline number?", and Next Week extensions.
+- **`DECISIONS.md`** created cataloging 14 non-obvious engineering decisions and trade-offs.
 
 ---
 
-## Phase 9 — Repo polish
-- `README.md` that lets someone reproduce your headline result in under 15 minutes (clear setup steps, sample command, expected output)
-- `.env.example` for any API keys, nothing secret committed
-- Clean folder structure: `src/`, `data/` (gitignored — too large to commit), `docs/`, `prompts/`
-- Final sanity run-through from a clean clone
+## Phase 9 — Repo polish ✅ (done)
+- `package.json` updated with one-click reproduction commands (`npm run eval`, `npm run eval:judge`, `npm run test:baselines`).
+- `README.md` completely documents architecture, quickstart, taxonomy, baseline comparisons, and reproduction guide.
+- `.env.example` committed for optional API keys.
+- Clean folder structure: `src/`, `data/`, `docs/`, `prompts/`.
+- All TypeScript compiles cleanly with 0 errors.
 
-**Deliverable:** ready to submit via the form, with public (or access-granted) repo link + report.
+**Project Status:** 100% Complete and ready for submission!
