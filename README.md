@@ -1,8 +1,7 @@
 # Spotify Support AI Triage Agent 🎧🤖
 
 > An empirical, trustworthy AI support triage agent for **`@SpotifyCares`** on Twitter.  
-> Built for the **Hiver SDE Intern** take-home assignment.  
-> *"The proof is worth more than the system."*
+
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x%20%7C%20Node%2022+-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
