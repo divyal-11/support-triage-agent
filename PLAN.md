@@ -43,14 +43,14 @@ Steps:
 
 ---
 
-## Phase 3 — Golden evaluation set ✅ (done)
-**Goal:** 150-250 hand-labelled examples — this is your ground truth for everything downstream.
+## Phase 3 — Evaluation set ✅ (done)
+**Goal:** 200-sample machine-labelled evaluation set (not human-verified).
 
 **Important:** this set is a strictly held-out test set. It is never used to train the classifier (Phase 5a uses a separate, larger "silver" set — see below) — only to evaluate. Mixing the two is data leakage and invalidates every metric downstream.
 
 - `src/build-labeling-sheet.ts` deterministically sampled 200 high-signal pairs (`seed = 42`).
-- Generated official ground truth: `data/golden-set.json` (200 labeled examples).
-- Documented methodology, class distributions, and disambiguation rules in `docs/labeling-notes.md`.
+- Generated `data/golden-set.json` (200 machine-labelled examples, not human-verified).
+- Documented methodology, class distributions, and label provenance in `docs/labeling-notes.md`.
 
 ---
 
@@ -88,11 +88,12 @@ Steps:
 
 - `prompts/eval-rubric.txt` — 4-criterion grading rubric (Groundedness, Brand Tone, Escalation Safety, Actionability/Length).
 - `src/eval-judge.ts` — automated rubric evaluator with explicit reasoning and numerical stability.
-- `src/eval-validation.ts` — statistical validation experiment comparing 35 human ground-truth evaluations against the automated judge:
+- `src/eval-validation.ts` — statistical validation experiment across 35 comparison evaluations against the automated judge:
+  - TODO (author to confirm): were these 35 ratings produced by a human? If not, relabel as LLM-vs-LLM agreement.
   - **% Agreement within ±1 point:** **92.1%** (129/140 criteria checks)
   - **Cohen's Kappa (Escalation Agreement):** **0.706** (Substantial Agreement > 0.70)
   - **Spearman Rank Correlation:** **0.418**
-  - **Human Mean:** 4.41 / 5.0 | **Judge Mean:** 4.43 / 5.0
+  - **Comparison Baseline Mean:** 4.41 / 5.0 | **Judge Mean:** 4.43 / 5.0
 - **Deliverable:** `docs/eval-results.md` generated with full 3-way baseline comparisons and statistical validation.
 
 ---

@@ -61,7 +61,7 @@ npm install
 ```
 
 ### 2. Run the Benchmark Baselines
-Evaluate the Trivial and Simple baselines against the 200-sample Golden Set:
+Evaluate the Trivial and Simple baselines against the 200-sample machine-labelled evaluation set (not human-verified):
 ```bash
 # Trivial Baseline (Majority Class Predictor)
 npx tsx src/baseline-trivial.ts
@@ -71,7 +71,7 @@ npx tsx src/baseline-simple.ts
 ```
 
 ### 3. Run the Statistical Intent Classifier
-Train on 1,891 weakly supervised silver examples and evaluate on the strictly held-out Golden Set:
+Train on 1,891 weakly supervised silver examples and evaluate on the strictly held-out 200-sample machine-labelled evaluation set:
 ```bash
 npx tsx src/classifier.ts
 ```
@@ -103,7 +103,7 @@ Derived empirically from reading real customer conversations in `data/spotifycar
 
 ## 📈 Baseline Performance Floor
 
-Every AI system must prove it is better than non-AI heuristics. We evaluated our two baselines against the **200-sample hand-labelled Golden Set** ([`data/golden-set.json`](data/golden-set.json)):
+Every AI system must prove it is better than non-AI heuristics. We evaluated our two baselines against the **200-sample machine-labelled evaluation set (not human-verified)** ([`data/golden-set.json`](data/golden-set.json)):
 
 | Metric | Trivial Baseline (Majority Class) | Simple Baseline (Keyword Matcher) | Standalone Classifier (Phase 5a) |
 |---|---|---|---|
@@ -113,14 +113,16 @@ Every AI system must prove it is better than non-AI heuristics. We evaluated our
 | **Critical Missed Escalations (FN)** | **55** 🚨 | **19** ⚠️ | *Evaluating in Phase 5d* |
 | **Reply Grounding** | Static single sentence | Canned category template | **Dynamic Historical RAG (25.5k tokens indexed)** |
 
+*Note: Measured against machine-generated labels; not human-verified.*
+
 > **Key Finding:** While the Simple Baseline achieves 91% accuracy via naive keywords, its **escalation recall is dangerously low (65.45%)**, silently missing **19 critical financial and account security emergencies**.
 
 ---
 
 ## 🔬 Scientific Rigor & Engineering Decisions
 
-1. **Strict Held-Out Golden Set (Zero Data Leakage):**
-   * The 200 Golden Set samples are **never** used during training.
+1. **Strict Held-Out Evaluation Set (Zero Data Leakage):**
+   * The 200 evaluation set samples are **never** used during training.
    * Training for classical models uses a **Silver Set of 1,891 examples** generated from the remaining 13,722 pairs via weak supervision (`src/build-silver-set.ts`).
 2. **Sub-5ms In-Memory Retrieval Index:**
    * Instead of heavy external vector DB dependencies, `src/retrieval.ts` implements a custom in-memory inverted TF-IDF index across 25,500 distinct terms.
@@ -136,7 +138,7 @@ Every AI system must prove it is better than non-AI heuristics. We evaluated our
 support-triage-agent/
 ├── data/
 │   ├── spotifycares-pairs.json       # 13,922 clean customer-reply pairs (5.7 MB)
-│   ├── golden-set.json               # 200 hand-labelled ground truth benchmark
+│   ├── golden-set.json               # 200 machine-labelled evaluation set (not human-verified)
 │   ├── silver-set.json               # 1,891 weakly supervised training examples
 │   ├── classifier-model.json         # Serialized TF-IDF model weights (1.5 MB)
 │   ├── predictions-trivial.json      # Output predictions from Trivial baseline
