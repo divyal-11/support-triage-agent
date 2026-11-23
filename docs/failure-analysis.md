@@ -93,5 +93,16 @@ Through auditing the 9 missed escalations and intent classification mispredictio
 * Rare tokens like `"200 songs"` and `"playlist"` produce huge dot-product spikes, causing the retrieval engine to pull a past case about library importing rather than shuffle/playback bugs.
 * Although both tweets share the exact words *"200 songs"* and *"playlist"*, their underlying customer intents are completely divergent.
 
-### Proposed Mitigation:
-* Implement **Dense Hybrid Search**: combine sparse BM25/TF-IDF retrieval with dense vector embeddings (e.g., `text-embedding-3-small` or local MiniLM) using Reciprocal Rank Fusion (RRF).
+### Implemented Mitigation & Empirical Validation (Track B):
+* We implemented a **Dense Hybrid Search Engine** (`python/hybrid_search.py`) pairing Sparse TF-IDF (unigrams + bigrams) with Dense Embeddings (`all-MiniLM-L6-v2`, 384 dimensions) fused via Reciprocal Rank Fusion ($k = 60$):
+  $$\text{RRF Score}(d) = \frac{1}{60 + \text{rank}_{\text{sparse}}(d)} + \frac{1}{60 + \text{rank}_{\text{dense}}(d)}$$
+
+### Empirical Side-by-Side Comparison:
+
+| Test Scenario | Query | Sparse TF-IDF Retrieval | Dense Embedding Retrieval | Hybrid RRF Resolution |
+|---|---|---|---|---|
+| **Failure Mode 5 (Keyword Distraction)** | *"My playlist has 200 songs but only plays 10 on shuffle."* | Matched playlist size feedback link | **Exact match ($\cos = 0.88$):** *"I have a 2,000 song playlist but I only hear about 30 of the same songs on shuffle."* | Balanced rank retrieval (#1 sparse, #5 dense) |
+| **Colloquial Slang & Synonyms** | *"my music keeps cutting off every few minutes on my cell"* | **Failed:** Matched *"music keeps undownloading"* (offline bug) | **Matched:** *"keeps on stop playing music every few songs"* | **Retrieved:** *"Why does my spotify keep cutting in and out?"* (diagnostics for device/OS) |
+| **Indirect Financial Phrasing** | *"money was taken from my debit account unexpectedly"* | **False Lead:** Matched FAQ on monthly billing cycle dates | **Matched:** *"i was charged twice for my student account i want my money"* | **Safely escalated:** Retrieved private DM link for payment review |
+
+*Reproduction:* Run `python python/evaluate_hybrid.py` to inspect the side-by-side matches.

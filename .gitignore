@@ -4,3 +4,12 @@ data/twcs.csv
 twcs/
 data/cache/
 .env
+
+# Python artifacts
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/*.npy
+data/*.npz
+data/corpus_metadata.json

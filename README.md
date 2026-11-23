@@ -82,6 +82,12 @@ Test historical retrieval (RAG) across real customer scenarios:
 npx tsx src/retrieval.ts
 ```
 
+### 5. Run the Dense Hybrid Retrieval Benchmark (Sparse vs. Dense vs. RRF)
+Evaluate dense embeddings (`all-MiniLM-L6-v2`) and Reciprocal Rank Fusion against vocabulary mismatches:
+```bash
+python python/evaluate_hybrid.py
+```
+
 ---
 
 ## 📊 The 8-Class Intent Taxonomy
