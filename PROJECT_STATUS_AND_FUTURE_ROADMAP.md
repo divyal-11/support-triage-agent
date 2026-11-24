@@ -1,18 +1,17 @@
-# Spotify Support AI Triage Agent: Deep Project Status & Future Engineering Roadmap
+# Spotify Support AI Triage Agent: Comprehensive Status Review & Handoff Report
 
-> **Date:** November 22, 2026  
+> **Date:** November 24, 2026  
 > **Repository:** `https://github.com/divyal-11/support-triage-agent` (Branch: `main`)  
-> **Workspace Path:** `c:\Users\divya\Projects\support-triage-agent`  
 > **Audience:** Claude / Development Team / Technical Interviewer  
-> **Guiding Principle:** Treated as a **first-principles engineering and machine learning project** to build deep, production-grade systems design intuition. No shortcuts, no black boxes.
+> **Guiding Principle:** Treated as a **first-principles engineering and applied ML systems project** to build production-grade systems design intuition. No black boxes, unvarnished truth on metrics, and empirical verification at every stage.
 
 ---
 
-## 1. Project Overview & Architecture
+## 1. Executive Summary & Architecture
 
-This project builds an automated, safety-critical **AI Support Triage & Grounded Response Agent** for **`@SpotifyCares`** on X (Twitter).
+This repository builds an automated, safety-critical **AI Support Triage & Grounded Response Agent** for **`@SpotifyCares`** on X (Twitter).
 
-When customers tweet issues at Spotify, the pipeline executes 4 modular sub-systems in under 10 milliseconds:
+When customers tweet support inquiries, the system processes them through 4 modular sub-systems:
 
 ```
 Incoming Customer Tweet: "@SpotifyCares my music stops playing when my screen turns off!"
@@ -20,20 +19,22 @@ Incoming Customer Tweet: "@SpotifyCares my music stops playing when my screen tu
          ┌───────────────┴───────────────┐
          ▼                               ▼
 1. Intent Classifier             2. Historical Retrieval Engine (RAG)
-   (TF-IDF + Multinomial Model)     (Inverted TF-IDF Index over 13,922 tweets)
-   -> "playback_audio_issue"        -> Retrieves 2-3 similar past resolutions:
-      (Confidence: 89.4%)              "Check background app refresh in iOS settings..."
+   - TypeScript Naive Bayes (57%)   - Sparse TF-IDF (<5ms)
+   - Python LinearSVC (78.5%)       - Dense MiniLM Embeddings (384-d)
+   -> "playback_audio_issue"        - Hybrid Reciprocal Rank Fusion (RRF k=60)
          │                               │
          └───────────────┬───────────────┘
                          ▼
-3. Safety Escalation Policy (Deterministic Guardrails)
-   Checks: Confidence floor (<0.40), financial charge keywords, credential security
+3. Safety Escalation Policy & State Machine
+   - Deterministic 4-Layer Guardrail (Confidence < 0.40, Financial keywords, Credentials)
+   - Multi-Turn Conversation State Machine (Loop prevention, repeat failure escalation)
    -> Decision: "Auto-handle (Standard self-serve technical troubleshooting applies)"
                          │
                          ▼
 4. Grounded Reply Drafting (LLM / RAG Synthesis)
    Prompt LLM with: Customer query + 2-3 retrieved Spotify solutions
    -> "Hey there! Let's get this sorted. Try heading to iOS Settings > Battery..."
+   -> Enforces 280-character budget and /Spotify brand sign-off
                          │
                          ▼
 Unified AgentResult { intent, confidence, retrieved_examples, drafted_reply, should_escalate, escalate_reason }
@@ -41,189 +42,150 @@ Unified AgentResult { intent, confidence, retrieved_examples, drafted_reply, sho
 
 ---
 
-## 2. What Has Been Completed in Detail (Phases 0 – 9)
+## 2. Complete Inventory of What Has Been Built
 
-### Phase 0: Project Infrastructure & Setup
-* Initialized Node.js + TypeScript environment (`target: ES2022`, `module: commonjs`, strict typing).
-* Setup git repository, remote origin (`divyal-11/support-triage-agent`), and `.gitignore` protecting raw data (>500MB) and build artifacts.
-* Downloaded Kaggle Twitter customer support dataset (1.16 million rows, 189 MB).
+### Phase 1: High-Throughput Streaming Brand Extractor (`src/filter-brand.ts`)
+* **Problem:** Loading the 189 MB raw Kaggle dataset (`data/twcs.csv`, 1.16M rows) crashes Node.js V8 heap (>1.5 GB RAM).
+* **Architecture:** Implemented two-pass streaming via `csv-parse`. Pass 1 indexed ~14,000 `@SpotifyCares` replies by parent ID into a 5 MB Map. Pass 2 matched incoming customer queries.
+* **Output:** Generated [`data/spotifycares-pairs.json`](data/spotifycares-pairs.json) with **13,922 clean conversation pairs** (5.8 MB).
 
-### Phase 1: Two-Pass Streaming Brand Extractor (`src/filter-brand.ts`)
-* **Problem Solved:** Loading 189 MB CSV into Node.js memory crashes V8 heap (1.5 GB+ RAM).
-* **Architecture:** Streamed rows via `csv-parse`. Pass 1 indexed ~14,000 Spotify replies by parent ID into a tiny 5 MB Map. Pass 2 matched customer queries.
-* **Output:** Generated [`data/spotifycares-pairs.json`](data/spotifycares-pairs.json) containing **13,922 clean conversation pairs**.
-
-### Phase 2: Intent Taxonomy Definition (`docs/taxonomy.md`)
-* Sampled 50 real tweets (`src/sample-for-review.ts`) to discover real recurring problem types rather than guessing.
-* Defined an **8-class mutually exclusive taxonomy** with clear operational routing:
-  1. `playback_audio_issue` (Auto-Handle)
-  2. `offline_downloads_issue` (Auto-Handle)
-  3. `app_crash_performance` (Auto-Handle)
-  4. `content_catalog_request` (Auto-Handle)
+### Phase 2: Empirical Intent Taxonomy (`docs/taxonomy.md`)
+* Sampled 50 real tweets to discover true recurring customer problem clusters rather than guessing.
+* Defined an **8-class mutually exclusive taxonomy** with operational triage actions:
+  1. `playback_audio_issue` (Auto-Handle via technical guides)
+  2. `offline_downloads_issue` (Auto-Handle via storage guides)
+  3. `app_crash_performance` (Auto-Handle via OS diagnostics)
+  4. `content_catalog_request` (Auto-Handle via licensing FAQ)
   5. `billing_payment_dispute` (**Escalate to Human via private DM**)
   6. `account_access_security` (**Escalate to Human via private DM**)
   7. `subscription_plan_family` (**Escalate to Human via private DM**)
-  8. `feedback_or_complaint` (Auto-Handle)
-* Strongly typed all intents and data contracts in [`src/types.ts`](src/types.ts).
+  8. `feedback_or_complaint` (Auto-Handle via empathetic acknowledgement)
+* Strongly typed in [`src/types.ts`](src/types.ts).
 
-### Phase 3: Golden Evaluation Benchmark (`data/golden-set.json`)
-* **Zero Data Leakage:** Built a strictly held-out **200-sample hand-labelled test set** using seeded deterministic sampling (`seed = 42` in `src/build-labeling-sheet.ts`).
-* **Distribution:** 72.5% Auto-Handle (145 items) vs. 27.5% Escalate (55 items).
-* Documented methodology, edge-case precedence (Security > Billing > Family > Tech > Feedback), and held-out guarantees in [`docs/labeling-notes.md`](docs/labeling-notes.md).
+### Phase 3: Evaluation Benchmark & Provenance Reality
+* Seeded deterministic sample (`seed = 42`) of 200 pairs (`data/golden-set.json`).
+* **Unvarnished Truth on Label Provenance:** The 200 evaluation examples were **not hand-labelled by a human**. Their original labels came from a heuristic script (`golden-set.json` / `golden-set.original-labels.json`). A second set (`golden-set.v2.json`) was generated via LLM/script. Every metric measures agreement with machine-generated labels, not human ground truth. This is documented transparently in `REPORT.md`, `DECISIONS.md`, and `docs/labeling-notes.md`.
 
-### Phase 4: Honest Baseline Floor (`src/baseline-trivial.ts`, `src/baseline-simple.ts`)
-* **Trivial Baseline:** Majority-class predictor (`feedback_or_complaint` + blind auto-handle).
-  * Intent Accuracy: **39.00%** | Escalation Recall: **0.00%** (55 critical false negatives).
-* **Simple Baseline:** Rule-based keyword matcher + canned static replies.
-  * Intent Accuracy: **91.00%** | Escalation Recall: **65.45%** (missed 19 critical escalations due to keyword brittleness).
-  * Output: [`data/predictions-trivial.json`](data/predictions-trivial.json) & [`data/predictions-simple.json`](data/predictions-simple.json).
+### Phase 4: Baseline Performance Floor (`src/baseline-trivial.ts`, `src/baseline-simple.ts`)
+* **Trivial Baseline (Majority Class):** 39.00% accuracy, 0% escalation recall (missed all 55 escalations).
+* **Simple Baseline (Keyword Matcher):** 91.00% intent accuracy, but dangerously low **65.45% escalation recall** (silently missed 19 critical financial and account security emergencies). The 91% accuracy is likely inflated because evaluation labels were generated using similar heuristic keyword rules.
 
-### Phase 5: Core Agent Pipeline
-* **5a — Statistical Intent Classifier (`src/classifier.ts`):**
-  * Built [`src/build-silver-set.ts`](src/build-silver-set.ts): generated a balanced silver training set of **1,891 examples** with strict exclusion of all 200 Golden Set IDs to prevent test contamination.
-  * Extracted 5,915 unigram and bigram features using sublinear TF-IDF scaling.
-  * Built a Multinomial Naive Bayes model with Laplace smoothing ($\alpha = 1.0$) and calibrated Softmax confidence scoring. Serialized to [`data/classifier-model.json`](data/classifier-model.json) (1.5 MB).
-* **5b — Historical Retrieval / RAG (`src/retrieval.ts`):**
-  * Built an in-memory **Inverted TF-IDF Index** indexing 25,500 distinct tokens across all 13,922 conversation pairs.
-  * Computes cosine similarity in **sub-5 milliseconds** without external vector database overhead.
-  * Built-in `excludeTweetId` self-match suppression during evaluation.
-* **5c — Grounded Reply Generator (`src/generate-reply.ts`):**
-  * Prompt template in [`prompts/reply-draft.txt`](prompts/reply-draft.txt) enforcing brand tone, historical grounding, and strict 280-character Twitter limits.
-  * Multi-provider LLM client (`src/utils/llm-client.ts`) supporting Gemini and Groq via native `fetch`, with local SHA-256 caching (`data/cache/llm-replies.json`) and intelligent offline fallback.
-* **5d — Deterministic Escalation Policy (`src/escalation-policy.ts`):**
-  * 4-layer safety shield (Explicit Human Request $\rightarrow$ High-Risk Intent $\rightarrow$ Critical Safety Keywords $\rightarrow$ Low Confidence Floor $< 0.40$).
-* **5e — Unified Execution (`src/agent.ts`, `src/run-on-golden-set.ts`):**
-  * Evaluated 200 benchmark samples in **1.10 – 1.27 seconds** (181 samples/sec).
-  * **Slashed missed escalations from 55 (Trivial) and 19 (Simple) down to only 9!**
-  * Escalation Recall: **83.64%** (safety critical).
+### Phase 5: Machine Learning Intent Classifiers
+We built **two distinct implementations** to compare from-scratch systems programming with industry-standard ML:
+1. **From-Scratch TypeScript Model (`src/classifier.ts`):**
+   - Custom unigram + bigram tokenizer, IDF weight calculation, Laplace-smoothed log-likelihood Multinomial Naive Bayes trained on 1,891 silver examples (`data/silver-set.json`, zero data leakage).
+   - Accuracy: **57.00%** on the held-out test set.
+2. **Scikit-Learn Python ML Pipeline (`python/classifier.py`):**
+   - Compared Multinomial Naive Bayes (65.0%), Logistic Regression L2 (78.0%), and **Linear Support Vector Classifier (LinearSVC)**.
+   - **LinearSVC Performance:** **78.50% accuracy**, **0.7856 weighted F1**, training in **70 milliseconds**.
+   - Achieved **100% recall on billing disputes (25/25)** and family plan issues (5/5).
 
-### Phase 6: Evaluation Harness & LLM-as-Judge (`src/eval-validation.ts`)
-* Built 4-criterion QA judge rubric (`prompts/eval-rubric.txt`): Groundedness, Brand Voice, Escalation Safety, Actionability.
-* Ran an empirical statistical validation study comparing **35 human ground-truth evaluations** against the automated LLM judge:
-  * **Criteria Agreement within ±1 point:** **92.1%** (129/140 checks).
-  * **Cohen's Kappa (Escalation Decision):** **0.706** (Substantial Agreement > 0.70).
-  * **Spearman Rank Correlation:** **0.418** (Positive quality alignment).
-* Full report documented in [`docs/eval-results.md`](docs/eval-results.md).
+### Phase 6: Deterministic Safety Guardrail (`src/escalation-policy.ts`)
+* 4-layer hierarchical rule engine:
+  - *Layer 1:* Explicit human / legal escalation requests (*"lawyer"*, *"representative"*, *"sue"*).
+  - *Layer 2:* High-risk financial/security intents (`billing_payment_dispute`, `account_access_security`, `subscription_plan_family`).
+  - *Layer 3:* Critical keywords (charge, refund, hacked, unauthorized).
+  - *Layer 4:* Confidence floor (< 0.40).
+* Combined agent achieved **83.64% escalation recall**, slashing missed escalations down to 9.
 
-### Phase 7: Failure Analysis (`docs/failure-analysis.md`)
-* Audited all false negatives and mispredictions into **5 diagnosable failure modes**:
-  1. Sarcasm & Ironic Sentiment Inversion
-  2. Multi-Turn Thread Context Truncation
-  3. Semantic Overlap Between Emotional Venting & Technical Bug Reports
-  4. Implicit Financial & Banking Phrasing
-  5. Lexical Overlap Distraction in TF-IDF Retrieval
+### Phase 7: Retrieval Engine & Dense Hybrid Search (Track B — COMPLETE)
+To eliminate **Failure Mode 5** (lexical keyword distraction), we built a dual-retriever system:
+1. **Sparse Inverted TF-IDF (`src/retrieval.ts`):** Sub-5ms cosine search across 25,500 distinct tokens.
+2. **Dense Vector Embeddings (`python/embed_corpus.py`):** Encoded all 13,922 tweets into 384-dimensional normalized float32 vectors using `all-MiniLM-L6-v2` (`data/corpus_embeddings.npy`, 21 MB).
+3. **Hybrid Reciprocal Rank Fusion (`python/hybrid_search.py`):**
+   $$\text{RRF Score}(d) = \frac{1}{60 + \text{rank}_{\text{sparse}}(d)} + \frac{1}{60 + \text{rank}_{\text{dense}}(d)}$$
+4. **Empirical Side-by-Side Proof (`python/evaluate_hybrid.py`):**
+   - *Shuffle repeating bug:* Dense retrieved an exact matching 2,000-song repeating issue ($\cos = 0.88$).
+   - *Colloquial slang ("cutting off on my cell"):* Sparse failed by matching offline downloads; Dense/Hybrid correctly retrieved audio pause diagnostics.
+   - *Indirect billing ("money taken from debit"):* Hybrid safely routed to private DM.
 
-### Phase 8 & 9: Technical Report, Decision Log & Repo Polish
-* Created [`REPORT.md`](REPORT.md): Problem framing, baseline tables, failure analysis, mandatory *"What is misleading about my headline number?"* section, and future extensions.
-* Created [`DECISIONS.md`](DECISIONS.md): 14 detailed architectural trade-offs and non-obvious engineering decisions.
-* Updated [`package.json`](package.json) with one-click reproduction commands (`npm run eval`, `npm run eval:judge`, `npm run test:baselines`, `npm run test:agent`).
+### Phase 8: Multi-Turn Conversation DAGs & State Machine (Track C — COMPLETE)
+To eliminate **Failure Mode 2** (context truncation in isolated tweets), we built:
+1. **Thread DAG Reconstructor (`src/thread-reconstructor.ts`):**
+   - Streamed 30,172 nodes in `data/twcs.csv` and reconstructed **4,328 real multi-turn conversation chains** ($\ge 3$ turns, longest thread: 28 turns).
+   - Saved to `data/spotifycares-threads.json`.
+2. **Turn-Aware Support State Machine (`src/conversation-state-machine.ts`):**
+   - Propagates root inquiry context from Turn 1 into ambiguous follow-up tweets.
+   - **Loop Prevention:** Detects when customer reports that previous advice failed (*"still didn't work"*, *"no luck"*, *"done it"*), suppressing redundant troubleshooting loops and transitioning to `REPEAT_FAILURE_ESCALATION`.
+3. **Empirical Benchmark (`src/run-multiturn-eval.ts`):**
+   - Proved on Tweet #968809 (*"done it, and it still won't scrobble"*): Single-turn agent guessed blindly; multi-turn state machine synthesized Turn 1 context, identified Last.fm auth failure, and escalated to human to prevent an advice loop.
 
----
-
-## 3. Current Performance Benchmark Summary
-
-| Metric | Trivial Baseline | Simple Keyword Baseline | Support Triage Agent (Ours) | Operational Meaning |
-|---|---|---|---|---|
-| **Escalation Recall (Safety Critical)** | **0.00%** | **65.45%** | **83.64%** 🛡️ | Catches critical emergencies reliably |
-| **Critical Missed Escalations (FN)** | **55** 🚨 | **19** ⚠️ | **Only 9** 🛡️ | Slashed missed escalations by > 52% |
-| **Escalation Precision** | 0.00% | 100.00% | **74.19%** | Balanced safety-first trade-off |
-| **Escalation F1-Score** | 0.00% | 79.12% | **78.63%** | High operational equilibrium |
-| **Intent Classification Accuracy** | 39.00% | 91.00% | 55.00%* | *Trained on weak labels; zero data leakage |
-| **Reply Grounding** | Static 1-liner | Canned template | **Dynamic RAG (25.5k tokens indexed)** | Contextual troubleshooting |
-| **Reproduction Latency (200 samples)** | < 0.1s | < 0.1s | **1.27 seconds** | Blazing fast reproduction |
+### Phase 9: Evaluation Harness & LLM Judge Validation
+* Automated 4-criterion grading rubric (Groundedness, Brand Tone, Escalation Safety, Actionability/Length).
+* Agreement study across 35 comparison samples (`src/eval-validation.ts`): 92.1% agreement within ±1 point, Cohen's Kappa 0.706.
+* *Provenance note:* Documented that the 35 comparison scores were generated by a heuristic scoring rule in code, measuring heuristic-vs-judge consistency rather than human ground truth.
 
 ---
 
-## 4. Current File & Directory Layout
+## 3. Current Git & File Structure
 
 ```
 support-triage-agent/
 ├── data/
-│   ├── spotifycares-pairs.json       # 13,922 clean pairs (5.7 MB)
-│   ├── golden-set.json               # 200 hand-labelled test benchmark
+│   ├── spotifycares-pairs.json       # 13,922 clean pairs (5.8 MB)
+│   ├── golden-set.json               # 200 machine-labelled evaluation set
+│   ├── golden-set.v2.json            # 200 v2 LLM/script verified labels
 │   ├── silver-set.json               # 1,891 weakly supervised training examples
-│   ├── classifier-model.json         # Serialized TF-IDF model weights (1.5 MB)
-│   ├── predictions-trivial.json      # Output predictions from Trivial baseline
-│   ├── predictions-simple.json       # Output predictions from Simple baseline
-│   └── predictions-agent.json        # Output predictions from Real Agent
+│   ├── classifier-model.json         # Serialized TypeScript model weights (1.5 MB)
+│   ├── corpus_embeddings.npy         # 13,922 x 384 dense vector matrix (21 MB, gitignored)
+│   ├── corpus_metadata.json          # Metadata for hybrid search (gitignored)
+│   └── spotifycares-threads.json     # 4,328 multi-turn conversation chains (gitignored)
 ├── docs/
 │   ├── taxonomy.md                   # Formal 8-intent taxonomy & operational matrix
-│   ├── labeling-notes.md             # Sampling methodology & disambiguation rules
-│   ├── eval-results.md               # Statistical judge-human agreement report
-│   ├── failure-analysis.md           # Top 5 diagnosable failure modes
-│   └── sample-tweets.txt             # 50 exploratory sample tweets
+│   ├── labeling-notes.md             # Dataset distribution & label provenance notes
+│   ├── eval-results.md               # Baseline comparison table & judge agreement
+│   └── failure-analysis.md           # Top 5 failure modes with empirical mitigations
 ├── prompts/
-│   ├── reply-draft.txt               # LLM prompt template for grounded reply drafting
-│   └── eval-rubric.txt               # LLM-as-a-judge 4-criterion grading rubric
+│   ├── reply-draft.txt               # LLM prompt for grounded reply drafting
+│   └── eval-rubric.txt               # 4-criterion evaluation rubric
+├── python/
+│   ├── requirements.txt              # sentence-transformers, scikit-learn, numpy, torch
+│   ├── embed_corpus.py               # Generates 384-d dense embeddings (all-MiniLM-L6-v2)
+│   ├── hybrid_search.py              # Sparse TF-IDF + Dense Vector + RRF (k=60)
+│   ├── evaluate_hybrid.py            # Qualitative before/after benchmark on Failure Mode 5
+│   └── classifier.py                 # Scikit-Learn LinearSVC benchmark (78.5% acc)
 ├── src/
-│   ├── types.ts                      # Central TypeScript data contracts & interfaces
-│   ├── filter-brand.ts               # Two-pass streaming brand extractor
-│   ├── sample-for-review.ts          # Exploratory tweet sampler
-│   ├── build-labeling-sheet.ts       # Deterministic pseudo-random benchmark sampler
-│   ├── generate-golden-set.ts        # Ground-truth labeling engine
-│   ├── baseline-trivial.ts           # Trivial baseline (majority class)
-│   ├── baseline-simple.ts            # Simple baseline (keyword matcher)
-│   ├── build-silver-set.ts           # Zero-leakage silver training set builder
-│   ├── classifier.ts                 # Statistical NLP intent classifier
-│   ├── retrieval.ts                  # Sub-5ms inverted TF-IDF retrieval (RAG)
-│   ├── generate-reply.ts             # Grounded reply drafting module
+│   ├── types.ts                      # Central TypeScript data contracts
+│   ├── filter-brand.ts               # Streaming two-pass brand extractor
+│   ├── classifier.ts                 # Custom TypeScript Naive Bayes classifier
+│   ├── retrieval.ts                  # Sub-5ms inverted TF-IDF index
 │   ├── escalation-policy.ts          # 4-layer deterministic safety guardrail
 │   ├── agent.ts                      # Unified runAgent() entrypoint
-│   ├── run-on-golden-set.ts          # 200-sample benchmark evaluation runner
-│   ├── eval-judge.ts                 # LLM-as-a-judge scoring engine
-│   ├── eval-validation.ts            # Statistical judge validation (Kappa & Spearman)
-│   └── utils/
-│       ├── data-loader.ts            # Memory-safe CSV/JSON data loader
-│       ├── metrics.ts                # Precision, Recall, F1, Confusion Matrix harness
-│       └── llm-client.ts             # Multi-provider LLM client with local caching
-├── .env.example                      # Optional API keys for Gemini / Groq
-├── REPORT.md                         # Master technical report
-├── DECISIONS.md                      # 14 non-obvious engineering decisions log
-├── README.md                         # Public repository overview
-├── PLAN.md                           # Progress tracking roadmap
-└── package.json                      # NPM configuration & reproduction scripts
+│   ├── thread-reconstructor.ts       # Multi-turn conversation DAG builder
+│   ├── conversation-state-machine.ts # Turn-aware loop prevention state machine
+│   ├── run-multiturn-eval.ts         # Multi-turn benchmark resolving Failure Mode 2
+│   ├── eval-judge.ts                 # Automated rubric evaluator
+│   └── eval-validation.ts            # Statistical agreement harness
+├── REPORT.md                         # Master technical report (with honest headline caveats)
+├── DECISIONS.md                      # 15 architectural engineering decisions
+├── README.md                         # Public repository overview & quickstarts
+├── PLAN.md                           # Progress roadmap
+└── package.json
 ```
 
 ---
 
-## 5. Future Engineering Roadmap (4 Advanced Technical Tracks)
+## 4. What Is Left (The Final ~10%)
 
-Now that the core pipeline is solid, here are the 4 high-value engineering tracks we can pursue to deepen technical mastery:
+The backend, ML algorithms, vector search, and conversational graph architectures are **100% complete**. 
 
-### Track 1: Full-Stack Web Dashboard & Live Interactive API
-* **Goal:** Transform our backend pipeline into a production-grade full-stack product.
-* **Engineering Stack:** Express/Fastify API server + React / Vite / Tailwind UI.
+The **only remaining item** on the roadmap is:
+
+### Track A: Interactive Web UI / Dashboard Simulator
+* **Why build it:** Puts a visual interface on top of the CLI scripts so reviewers and technical interviewers can interact with the agent directly in a browser.
 * **Key Features:**
-  - **Live Tweet Simulator:** Type any query or pick from 13,922 tweets.
-  - **Visual Confidence Meter:** Real-time gauge showing intent probabilities.
-  - **RAG Inspector:** Side-by-side cards showing the 3 retrieved past cases with similarity scores.
-  - **Escalation Shield Badge:** Visual indicator (`🚨 ESCALATE TO HUMAN` vs `✅ AUTO-HANDLE`) displaying the exact safety layer triggered.
-  - **Human-in-the-Loop Override:** One-click button to approve, modify, or reject AI replies.
-
-### Track 2: Dense Semantic Vector Embeddings & Hybrid Search (BM25 + Dense)
-* **Goal:** Eliminate Failure Mode 5 (lexical overlap distraction in TF-IDF).
-* **Engineering Concepts:**
-  - Integrate a dense semantic embedding model (e.g. `all-MiniLM-L6-v2` locally or `text-embedding-3-small`).
-  - Implement **Reciprocal Rank Fusion (RRF)**:
-    $$\text{RRF Score}(d) = \sum_{m \in \{\text{Dense}, \text{Sparse}\}} \frac{1}{60 + \text{rank}_m(d)}$$
-  - Matches queries with zero overlapping keywords (e.g. *"music cuts off"* matches *"audio pauses"*).
-
-### Track 3: Multi-Turn Conversation Thread Reconstruction (Graph Trees)
-* **Goal:** Eliminate Failure Mode 2 (context truncation in single-turn queries).
-* **Engineering Concepts:**
-  - Use `in_response_to_tweet_id` to build a directed acyclic graph (DAG) of multi-turn customer conversations.
-  - Build a **Conversation State Machine**: tracks what troubleshooting step was already tried (e.g., Turn 1: user reported crash $\rightarrow$ bot advised cache clear $\rightarrow$ Turn 2: user says *"still broken"* $\rightarrow$ bot automatically escalates rather than repeating cache advice).
-
-### Track 4: Production Observability & Active Learning Loop
-* **Goal:** Continuous self-improving ML lifecycle.
-* **Engineering Concepts:**
-  - Automated telemetry: log latency, token usage, and retrieval similarity distributions.
-  - Uncertainty Sampling: any query where `confidence < 0.40` is automatically flagged into an active learning queue for human labeling, triggering continuous fine-tuning of the classifier weights.
+  - **Live Query Input:** Type any tweet or pick from real examples.
+  - **Intent Confidence Gauge:** Horizontal bar chart showing the 8 class probabilities.
+  - **RAG Cards:** Side-by-side view of the top 3 retrieved historical cases with similarity scores.
+  - **Escalation Shield Badge:** Big visual badge (`🚨 ESCALATE TO HUMAN` vs `✅ AUTO-HANDLE`) indicating the safety layer or state machine trigger.
+  - **Multi-Turn Chat Simulator:** Simulates customer replies (*"still didn't work"*) to demonstrate real-time loop prevention.
+* **Implementation Options:**
+  - **Option 1 (Python Streamlit):** Built in ~80 lines in `python/app.py` using our existing `.venv`. Extremely fast to spin up (`streamlit run python/app.py`).
+  - **Option 2 (Full-Stack Node/Express + HTML/Tailwind):** Built as an Express server serving a single-page interactive app.
 
 ---
 
-## 6. Working Principles for Next Steps
+## 5. Summary for Claude
 
-* **Interactive Engineering:** The candidate writes and owns the code. The AI assistant explains scenarios, architectural trade-offs, and algorithms, and guides the candidate step-by-step.
-* **First-Principles Implementation:** Favor lightweight, self-contained TypeScript and clear mathematics over opaque external libraries.
-* **Continuous Verification:** Every new module must include standalone test runners and zero compilation errors (`npx tsc --noEmit`).
+If you are sharing this with Claude, here is the executive talking point:
+> *"The support triage agent is now a fully functional, dual-language (TypeScript + Python) system. The core pipeline (streaming filter, intent classification, deterministic escalation, and RAG reply drafting) is complete. We expanded beyond the original scope by solving the two primary failure modes: implementing dense hybrid RRF search (Track B) to fix vocabulary mismatches, and building a 4,328-thread DAG reconstructor and state machine (Track C) to eliminate multi-turn context loss and advice loops. All metrics truthfully reflect machine-labelled provenance. The only remaining item is Track A: an interactive web dashboard simulator."*
