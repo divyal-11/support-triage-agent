@@ -6,6 +6,7 @@
   "scripts": {
     "eval": "tsx src/run-on-golden-set.ts",
     "eval:judge": "tsx src/eval-validation.ts",
+    "eval:multiturn": "tsx src/run-multiturn-eval.ts",
     "test:baselines": "tsx src/baseline-trivial.ts && tsx src/baseline-simple.ts",
     "test:agent": "tsx src/agent.ts",
     "build:data": "tsx src/filter-brand.ts",

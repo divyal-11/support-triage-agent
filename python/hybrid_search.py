@@ -173,3 +173,18 @@ class HybridSearchEngine:
         # Sort by RRF score descending
         fused_scores.sort(key=lambda x: x["rrf_score"], reverse=True)
         return fused_scores[:top_k]
+
+if __name__ == "__main__":
+    import sys
+    query = sys.argv[1] if len(sys.argv) > 1 else "my music keeps pausing every few minutes on my phone"
+    print(f"\nQuery: \"{query}\"\n" + "=" * 80)
+    
+    engine = HybridSearchEngine()
+    print("\n--- TOP 3 HYBRID SEARCH RESULTS (RRF k=60) ---")
+    results = engine.search_hybrid_rrf(query, top_k=3)
+    for i, res in enumerate(results, 1):
+        print(f"\n[{i}] Tweet ID: {res['tweet_id']} | RRF Score: {res['rrf_score']:.5f} (Sparse Rank: #{res['sparse_rank']}, Dense Rank: #{res['dense_rank']})")
+        print(f"    Customer: \"{res['customer_text']}\"")
+        print(f"    Spotify:  \"{res['brand_reply_text']}\"")
+    print("=" * 80)
+
