@@ -13,3 +13,4 @@ __pycache__/
 data/*.npy
 data/*.npz
 data/corpus_metadata.json
+data/*-threads.json

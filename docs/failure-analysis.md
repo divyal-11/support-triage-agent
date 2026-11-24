@@ -43,8 +43,20 @@ Through auditing the 9 missed escalations and intent classification mispredictio
 * In our single-turn evaluation setup, the tweet is evaluated in total isolation. It contains zero domain nouns (no *"playback"*, no *"download"*, no *"login"*).
 * While our Layer 4 confidence floor safely escalated this tweet due to low confidence (`0.22`), the intent classification itself is a shot in the dark.
 
-### Proposed Mitigation:
-* Reconstruct multi-turn conversation trees using the dataset's `in_response_to_tweet_id` pointer, prepending the previous 1–2 turns of context into the input payload before running inference.
+### Implemented Mitigation & Empirical Validation (Track C):
+* We implemented a **Thread DAG Reconstructor** (`src/thread-reconstructor.ts`) that traced 30,172 graph nodes in `data/twcs.csv` and reconstructed **4,328 real multi-turn conversation chains** ($\ge 3$ turns).
+* We paired this with a **Turn-Aware Support State Machine** (`src/conversation-state-machine.ts`):
+  1. **Root Context Synthesizer:** Propagates domain nouns from Turn 1 (e.g. Last.fm scrobbling, iOS 11 pause) forward into subsequent follow-ups.
+  2. **Loop Prevention & Repeat Failure Escalator:** Detects when a customer reports that previous advice failed (*"still didn't work"*, *"no luck"*, *"done it"*) and automatically escalates to a human, preventing circular troubleshooting loops.
+
+### Empirical Validation on Tweet #968809:
+- **Turn 1 (Customer):** *"hi, my last fm won't work on my spotify mobile, it says wrong uname/password..."*
+- **Turn 2 (Spotify):** *"Hey! Can you change your Last.fm password and give it another try? /YM"*
+- **Turn 3 (Customer):** *"done it, and it still won't scrobble."*
+- **Single-Turn Agent:** Saw only *"done it, and it still won't scrobble"* $\rightarrow$ low confidence guess or risk repeating password advice.
+- **Multi-Turn State Machine Agent:** Synthesized Turn 1 context $\rightarrow$ resolved intent to `playback_audio_issue` $\rightarrow$ transitioned state to `REPEAT_FAILURE_ESCALATION` $\rightarrow$ escalated to human with reason: *"Customer attempted password change step from Turn 2 but reported persistent issue; escalated to prevent redundant loop."*
+
+*Reproduction:* Run `npx tsx src/run-multiturn-eval.ts` to inspect multi-turn evaluations.
 
 ---
 

@@ -87,6 +87,12 @@ Evaluate dense embeddings (`all-MiniLM-L6-v2`) and Reciprocal Rank Fusion agains
 python python/evaluate_hybrid.py
 ```
 
+### 6. Run the Multi-Turn Conversation DAG & State Machine Benchmark
+Reconstruct conversation trees from `twcs.csv` and evaluate loop-prevention state machine:
+```bash
+npx tsx src/run-multiturn-eval.ts
+```
+
 ---
 
 ## 📊 The 8-Class Intent Taxonomy
