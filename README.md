@@ -72,7 +72,11 @@ npx tsx src/baseline-simple.ts
 ### 3. Run the Statistical Intent Classifier
 Train on 1,891 weakly supervised silver examples and evaluate on the strictly held-out 200-sample machine-labelled evaluation set:
 ```bash
+# TypeScript Model (Multinomial Naive Bayes from scratch):
 npx tsx src/classifier.ts
+
+# Python Scikit-Learn Benchmark (Naive Bayes vs. Logistic Regression vs. LinearSVC):
+python python/classifier.py
 ```
 
 ### 4. Run the Sub-5ms Retrieval Engine

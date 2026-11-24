@@ -12,5 +12,7 @@ __pycache__/
 *.pyc
 data/*.npy
 data/*.npz
+data/*.joblib
+data/*.pkl
 data/corpus_metadata.json
 data/*-threads.json
