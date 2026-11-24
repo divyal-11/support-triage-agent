@@ -21,6 +21,8 @@ Real-world customer support inboxes receive thousands of ambiguous, angry, and t
 
 ## 🏗️ Architecture & Pipeline Flow
 
+![Spotify Support AI Triage Architecture](assets/system_architecture.png)
+
 ```
 Incoming Customer Tweet: "@SpotifyCares my music stops playing when my screen turns off!"
                          │
@@ -87,12 +89,18 @@ npx tsx src/retrieval.ts
 
 ### 5. Run the Dense Hybrid Retrieval Benchmark (Sparse vs. Dense vs. RRF)
 Evaluate dense embeddings (`all-MiniLM-L6-v2`) and Reciprocal Rank Fusion against vocabulary mismatches:
+
+![Hybrid Search: Sparse TF-IDF + Dense MiniLM Embeddings via Reciprocal Rank Fusion](assets/hybrid_search_rrf.png)
+
 ```bash
 python python/evaluate_hybrid.py
 ```
 
 ### 6. Run the Multi-Turn Conversation DAG & State Machine Demonstration
 Reconstruct conversation trees from `twcs.csv` and inspect loop-prevention state machine (demonstrated on Tweet #968809; not systematically evaluated):
+
+![Multi-Turn Conversational State Machine & Support Loop Prevention](assets/multi_turn_state_machine.png)
+
 ```bash
 npx tsx src/run-multiturn-eval.ts
 ```
