@@ -1,10 +1,10 @@
 # triage — build plan
 
-AI customer-support agent for @SpotifyCares tweets. Classifies intent, drafts a grounded reply, decides auto-handle vs escalate — and proves it's trustworthy enough to matter.
+AI customer-support agent for @SpotifyCares tweets. Classifies intent, drafts a grounded reply, and decides auto-handle vs escalate.
 
 **Stack:** TypeScript, Node.js, ts-node. Classical ML (TF-IDF + Logistic Regression) for classification, an LLM only for reply generation. No framework, no database — this is a pipeline of scripts, not a web app.
 
-**Golden rule for every phase below:** don't just make it work — make it provable. Every phase should produce something you can point at and explain, not just code that runs.
+**Guiding principle for every phase below:** don't just make it work — make it measurable. Every phase should produce something you can point at and explain, not just code that runs.
 
 ---
 
@@ -84,7 +84,7 @@ Steps:
 ---
 
 ## Phase 6 — Evaluation harness ✅ (done)
-**Goal:** prove the system works, and prove your judge of "works" is itself trustworthy.
+**Goal:** evaluate the system and measure judge consistency against deterministic rules.
 
 - `prompts/eval-rubric.txt` — 4-criterion grading rubric (Groundedness, Brand Tone, Escalation Safety, Actionability/Length).
 - `src/eval-judge.ts` — automated rubric evaluator with explicit reasoning and numerical stability.
@@ -127,4 +127,4 @@ Steps:
 - Clean folder structure: `src/`, `data/`, `docs/`, `prompts/`.
 - All TypeScript compiles cleanly with 0 errors.
 
-**Project Status:** 100% Complete and ready for submission!
+**Project Status:** Pipeline implementation and baseline evaluation completed.

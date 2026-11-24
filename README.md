@@ -11,7 +11,7 @@
 
 ## 📌 Executive Summary
 
-Real-world customer support inboxes receive thousands of ambiguous, angry, and technical queries every day. This repository builds a production-grade AI support triage pipeline that processes incoming customer tweets for Spotify, performs **3 core actions**, and mathematically proves whether the agent is safe enough to trust:
+Real-world customer support inboxes receive thousands of ambiguous, angry, and technical queries every day. This repository builds an AI support triage pipeline that processes incoming customer tweets for Spotify and performs **3 core actions**:
 
 1. **Classifies Customer Intent:** Maps messages into an empirically derived 8-class taxonomy grounded in real Twitter data.
 2. **Drafts Grounded Replies (RAG):** Uses an in-memory inverted TF-IDF index across **13,922 historical Spotify conversations** to retrieve similar resolved cases and ground replies in Spotify's authentic troubleshooting steps and brand voice.
@@ -91,8 +91,8 @@ Evaluate dense embeddings (`all-MiniLM-L6-v2`) and Reciprocal Rank Fusion agains
 python python/evaluate_hybrid.py
 ```
 
-### 6. Run the Multi-Turn Conversation DAG & State Machine Benchmark
-Reconstruct conversation trees from `twcs.csv` and evaluate loop-prevention state machine:
+### 6. Run the Multi-Turn Conversation DAG & State Machine Demonstration
+Reconstruct conversation trees from `twcs.csv` and inspect loop-prevention state machine (demonstrated on Tweet #968809; not systematically evaluated):
 ```bash
 npx tsx src/run-multiturn-eval.ts
 ```
@@ -118,7 +118,7 @@ Derived empirically from reading real customer conversations in `data/spotifycar
 
 ## 📈 Baseline Performance Floor
 
-Every AI system must prove it is better than non-AI heuristics. We evaluated our two baselines against the **200-sample machine-labelled evaluation set (not human-verified)** ([`data/golden-set.json`](data/golden-set.json)):
+We evaluated our two baselines against the **200-sample machine-labelled evaluation set (not human-verified)** ([`data/golden-set.json`](data/golden-set.json)):
 
 | Metric | Trivial Baseline (Majority Class) | Simple Baseline (Keyword Matcher) | Standalone Classifier (Phase 5a) |
 |---|---|---|---|

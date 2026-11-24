@@ -3,7 +3,7 @@
 > **Date:** November 24, 2026  
 > **Repository:** `https://github.com/divyal-11/support-triage-agent` (Branch: `main`)  
 > **Audience:** Claude / Development Team / Technical Interviewer  
-> **Guiding Principle:** Treated as a **first-principles engineering and applied ML systems project** to build production-grade systems design intuition. No black boxes, unvarnished truth on metrics, and empirical verification at every stage.
+> **Guiding Principle:** Treated as a **first-principles engineering and applied ML systems project** to build systems design intuition. No black boxes, unvarnished truth on metrics, and empirical verification at every stage.
 
 ---
 
@@ -94,7 +94,7 @@ To eliminate **Failure Mode 5** (lexical keyword distraction), we built a dual-r
 2. **Dense Vector Embeddings (`python/embed_corpus.py`):** Encoded all 13,922 tweets into 384-dimensional normalized float32 vectors using `all-MiniLM-L6-v2` (`data/corpus_embeddings.npy`, 21 MB).
 3. **Hybrid Reciprocal Rank Fusion (`python/hybrid_search.py`):**
    $$\text{RRF Score}(d) = \frac{1}{60 + \text{rank}_{\text{sparse}}(d)} + \frac{1}{60 + \text{rank}_{\text{dense}}(d)}$$
-4. **Empirical Side-by-Side Proof (`python/evaluate_hybrid.py`):**
+4. **Empirical Side-by-Side Demonstration (`python/evaluate_hybrid.py`):**
    - *Shuffle repeating bug:* Dense retrieved an exact matching 2,000-song repeating issue ($\cos = 0.88$).
    - *Colloquial slang ("cutting off on my cell"):* Sparse failed by matching offline downloads; Dense/Hybrid correctly retrieved audio pause diagnostics.
    - *Indirect billing ("money taken from debit"):* Hybrid safely routed to private DM.
@@ -107,8 +107,9 @@ To eliminate **Failure Mode 2** (context truncation in isolated tweets), we buil
 2. **Turn-Aware Support State Machine (`src/conversation-state-machine.ts`):**
    - Propagates root inquiry context from Turn 1 into ambiguous follow-up tweets.
    - **Loop Prevention:** Detects when customer reports that previous advice failed (*"still didn't work"*, *"no luck"*, *"done it"*), suppressing redundant troubleshooting loops and transitioning to `REPEAT_FAILURE_ESCALATION`.
-3. **Empirical Benchmark (`src/run-multiturn-eval.ts`):**
-   - Proved on Tweet #968809 (*"done it, and it still won't scrobble"*): Single-turn agent guessed blindly; multi-turn state machine synthesized Turn 1 context, identified Last.fm auth failure, and escalated to human to prevent an advice loop.
+3. **Demonstration on Tweet #968809 (`src/run-multiturn-eval.ts`):**
+   - Single-turn agent guessed blindly; multi-turn state machine synthesized Turn 1 context, identified Last.fm auth failure, and escalated to human to prevent an advice loop.
+   - *Note:* This state machine behavior was demonstrated on this qualitative example (Tweet #968809) and was not systematically evaluated on a multi-turn benchmark.
 
 ### Phase 9: Evaluation Harness & LLM Judge Validation
 * Automated 4-criterion grading rubric (Groundedness, Brand Tone, Escalation Safety, Actionability/Length).
@@ -124,7 +125,7 @@ support-triage-agent/
 ├── data/
 │   ├── spotifycares-pairs.json       # 13,922 clean pairs (5.8 MB)
 │   ├── golden-set.json               # 200 machine-labelled evaluation set
-│   ├── golden-set.v2.json            # 200 v2 LLM/script verified labels
+│   ├── golden-set.v2.json            # 200 LLM/script labels, not human-verified
 │   ├── silver-set.json               # 1,891 weakly supervised training examples
 │   ├── classifier-model.json         # Serialized TypeScript model weights (1.5 MB)
 │   ├── corpus_embeddings.npy         # 13,922 x 384 dense vector matrix (21 MB, gitignored)
@@ -165,9 +166,9 @@ support-triage-agent/
 
 ---
 
-## 4. What Is Left (The Final ~10%)
+## 4. What Is Left
 
-The backend, ML algorithms, vector search, and conversational graph architectures are **100% complete**. 
+The backend, ML algorithms, vector search, and conversational graph architectures are implemented and benchmarked. 
 
 The **only remaining item** on the roadmap is:
 
@@ -188,4 +189,4 @@ The **only remaining item** on the roadmap is:
 ## 5. Summary for Claude
 
 If you are sharing this with Claude, here is the executive talking point:
-> *"The support triage agent is now a fully functional, dual-language (TypeScript + Python) system. The core pipeline (streaming filter, intent classification, deterministic escalation, and RAG reply drafting) is complete. We expanded beyond the original scope by solving the two primary failure modes: implementing dense hybrid RRF search (Track B) to fix vocabulary mismatches, and building a 4,328-thread DAG reconstructor and state machine (Track C) to eliminate multi-turn context loss and advice loops. All metrics truthfully reflect machine-labelled provenance. The only remaining item is Track A: an interactive web dashboard simulator."*
+> *"The support triage agent is now a dual-language (TypeScript + Python) system. The core pipeline (streaming filter, intent classification, deterministic escalation, and RAG reply drafting) is built and evaluated. We expanded beyond the initial scope by addressing the two primary failure modes: implementing dense hybrid RRF search (Track B) to handle vocabulary mismatches, and building a 4,328-thread DAG reconstructor and state machine (Track C) to demonstrate handling multi-turn context loss and advice loops (demonstrated on Tweet #968809; not systematically evaluated). All metrics truthfully reflect machine-labelled provenance. The only remaining item is Track A: an interactive web dashboard simulator."*
