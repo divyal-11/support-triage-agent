@@ -193,14 +193,14 @@ export async function runJudgeValidation(): Promise<JudgeValidationSummary> {
   // 5. Generate docs/eval-results.md deliverable
   const markdown = `# Evaluation Harness & Judge Validation Report
 
-> **Hiver Take-Home Assignment — Deliverable #3**  
-> **Evaluator:** Statistical Agreement Analysis (Human Ground Truth vs. Automated LLM-as-a-Judge)
+> **Evaluation Harness & Judge Agreement Analysis**  
+> **Evaluator:** Statistical Agreement Analysis (Heuristic Baseline vs. Automated LLM-as-a-Judge)
 
 ---
 
 ## 1. Executive Summary
 
-To satisfy the assignment requirement (*"prove the agent is good enough to trust"* and *"include evidence of how well your judge agrees with a human"*), we performed an empirical inter-rater reliability experiment across **35 representative conversation samples** drawn from the held-out Golden Set.
+To empirically evaluate the automated judge (*"prove the agent is good enough to trust"* and assess scoring consistency), an agreement experiment was conducted across **35 representative conversation samples** drawn from the held-out Golden Set.
 
 The automated LLM judge scored each drafted reply across 4 orthogonal dimensions:
 1. **Groundedness & Relevance (1–5)**

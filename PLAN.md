@@ -8,8 +8,8 @@ AI customer-support agent for @SpotifyCares tweets. Classifies intent, drafts a 
 
 ---
 
-## Phase 0 — Project setup ⬜ (not started)
-**Current folder state:** only `PLAN.md`, `sample.csv`, `twcs/twcs.csv` exist. No `package.json`, `tsconfig.json`, or `src/` yet.
+## Phase 0 — Project setup ✅ (done)
+**Initial folder state:** raw `data/twcs.csv` dataset.
 
 - `npm init -y`
 - Install: `npm install typescript ts-node csv-parse @types/node --save-dev`

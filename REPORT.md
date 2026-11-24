@@ -1,6 +1,6 @@
 # Support Triage Agent: Technical Report
 
-> **Role:** Take-Home Project  
+> **Topic:** AI Support Triage & Safety Escalation Pipeline  
 > **Brand Target:** `@SpotifyCares` (Twitter / X Customer Support)  
 > **Repository:** [github.com/divyal-11/support-triage-agent](https://github.com/divyal-11/support-triage-agent)  
 
@@ -95,4 +95,4 @@ The multi-turn state machine (`src/conversation-state-machine.ts`) was demonstra
 1. **Human Label Verification:** Conduct a formal manual review of the evaluation set to establish genuine human ground truth.
 2. **Dense Semantic Retrieval:** Complement TF-IDF cosine matching with dense vector embeddings to improve retrieval when phrasing differs from historical vocabulary.
 3. **Multi-Turn Thread Reconstruction:** Trace `in_response_to_tweet_id` across prior turns to provide context for short follow-up messages.
-4. **CRM Integration:** Connect the triage output to shared inbox APIs (e.g., Zendesk, Hiver) to route escalated cases directly into agent queues.
+4. **CRM Integration:** Connect the triage output to shared inbox APIs (e.g., Zendesk, Salesforce Service Cloud) to route escalated cases directly into agent queues.

@@ -1,6 +1,6 @@
 # Failure Analysis: Top 5 Failure Modes
 
-> **Hiver Take-Home Assignment — Deliverable #4 (Section 3)**  
+> **Failure Mode Analysis & Empirical Mitigations**  
 > **Target System:** Spotify AI Support Triage Agent (`@SpotifyCares`)  
 > **Source Evidence:** Error logs, false negatives, and misclassifications from the 200-sample Golden Benchmark evaluation.
 
