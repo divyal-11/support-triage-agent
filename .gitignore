@@ -16,3 +16,9 @@ data/*.joblib
 data/*.pkl
 data/corpus_metadata.json
 data/*-threads.json
+
+# Local learning and walkthrough notes (not pushed)
+WALKTHROUGH_AND_ML_GUIDE.md
+STUDY_GUIDE_*.md
+PROJECT_*.md
+
